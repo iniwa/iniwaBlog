@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>独り言 on いにわの庭</title>
-    <link>https://iniwa.github.io/iniwach/categories/%E7%8B%AC%E3%82%8A%E8%A8%80/</link>
+    <link>https://iniwach.netlify.com/categories/%E7%8B%AC%E3%82%8A%E8%A8%80/</link>
     <description>Recent content in 独り言 on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 04 Dec 2019 13:33:22 +0000</lastBuildDate>
     
-	<atom:link href="https://iniwa.github.io/iniwach/categories/%E7%8B%AC%E3%82%8A%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iniwach.netlify.com/categories/%E7%8B%AC%E3%82%8A%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>自己紹介</title>
-      <link>https://iniwa.github.io/iniwach/%E7%8B%AC%E3%82%8A%E8%A8%80/profile/</link>
+      <link>https://iniwach.netlify.com/%E7%8B%AC%E3%82%8A%E8%A8%80/profile/</link>
       <pubDate>Wed, 04 Dec 2019 13:33:22 +0000</pubDate>
       
-      <guid>https://iniwa.github.io/iniwach/%E7%8B%AC%E3%82%8A%E8%A8%80/profile/</guid>
+      <guid>https://iniwach.netlify.com/%E7%8B%AC%E3%82%8A%E8%A8%80/profile/</guid>
       <description>自己紹介 はじめまして。いにわです。
 パソコンとゲームが好きです。以上です。
 このサイトについて 私自身がメモ代わりに、もしかしたら誰かが助かるかも知れない内容をPostしていく予定ではあります。

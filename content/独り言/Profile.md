@@ -2,11 +2,11 @@
 title: 自己紹介
 date: 2019-12-04T13:33:22.000Z
 draft: false
-thumbnail: images/post/自己紹介.jpg
+thumbnail: images/post/自己紹介.png
 tags:
   - 自己紹介
 categories:
-  - 自己紹介
+  - 独り言
 
 ---
 
@@ -50,4 +50,4 @@ Mousepad : [ARTISAN FX シデンカイ サイズM 中間層MID](https://www.arti
 Audio amp : [SNNHEISER GSX 1000](https://www.amazon.co.jp/gp/product/B01LDTP484/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=5eba74e51dcb2d91baab38b1908a1513&language=ja_JP)  
 Headphone : [TAGO-STUDIO T03-01](https://www.e-earphone.jp/tago-studio/takasaki-t3-01)  
 VR HMD : [Valve Index](https://store.steampowered.com/valveindex)  
-Controller : [SCUF VANTAGE 2 MODERN WARFARE](https://gaming.sazabies.com/products/detail/307)
+Controller : [SCUF VANTAGE 2 MODERN WARFARE](https://gaming.sazabies.com/products/detail/307)  

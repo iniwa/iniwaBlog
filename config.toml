@@ -3,7 +3,7 @@ languageCode = "ja"
 title = "いにわの庭"
 theme = "hugo_theme_robust"
 
-googleAnalytics = "UA-153853958-1" # Optional
+googleAnalytics = "UA-153853958-2" # Optional
 disqusShortname = "XYWZ"
 
 tag = "tags"
