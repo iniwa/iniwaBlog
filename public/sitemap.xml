@@ -3,52 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://iniwach.netlify.com/tags/audio/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/tags/banana/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/benri/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iniwach.netlify.com/categories/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/tags/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/tags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/benri/banana/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iniwach.netlify.com/categories/%E4%BE%BF%E5%88%A9/</loc>
-    <lastmod>2019-12-08T15:04:45+09:00</lastmod>
+    <lastmod>2019-12-04T13:33:22+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://iniwach.netlify.com/post/</loc>
+    <lastmod>2019-12-04T13:33:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iniwach.netlify.com/tags/</loc>
+    <lastmod>2019-12-04T13:33:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iniwach.netlify.com/</loc>
     <lastmod>2019-12-04T13:33:22+00:00</lastmod>
   </url>
   

@@ -1,7 +1,7 @@
 ---
 title: "仮想オーディオミキサの便利な使い方"
 date: 2019-12-08T15:04:45+09:00
-draft: false
+draft: true
 thumbnail: images/post/自己紹介.jpg
 categories:
   - 便利
