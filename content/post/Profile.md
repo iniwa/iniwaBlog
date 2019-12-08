@@ -51,3 +51,8 @@ Audio amp : [SNNHEISER GSX 1000](https://www.amazon.co.jp/gp/product/B01LDTP484/
 Headphone : [TAGO-STUDIO T03-01](https://www.e-earphone.jp/tago-studio/takasaki-t3-01)  
 VR HMD : [Valve Index](https://store.steampowered.com/valveindex)  
 Controller : [SCUF VANTAGE 2 MODERN WARFARE](https://gaming.sazabies.com/products/detail/307)  
+
+## SpecialThanks  
+
+アイコンと上部バナー画像の絵はふぅすさんに描いて頂きました。  
+[ふぅすさんのTwitter](https://twitter.com/Hu_Shimaster)

@@ -6,10 +6,37 @@
     <description>Recent content in Tags on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Dec 2019 13:33:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 15:04:45 +0900</lastBuildDate>
     
 	<atom:link href="https://iniwach.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Audio</title>
+      <link>https://iniwach.netlify.com/tags/audio/</link>
+      <pubDate>Sun, 08 Dec 2019 15:04:45 +0900</pubDate>
+      
+      <guid>https://iniwach.netlify.com/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Banana</title>
+      <link>https://iniwach.netlify.com/tags/banana/</link>
+      <pubDate>Sun, 08 Dec 2019 15:04:45 +0900</pubDate>
+      
+      <guid>https://iniwach.netlify.com/tags/banana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ソフトウェア</title>
+      <link>https://iniwach.netlify.com/tags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/</link>
+      <pubDate>Sun, 08 Dec 2019 15:04:45 +0900</pubDate>
+      
+      <guid>https://iniwach.netlify.com/tags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>自己紹介</title>
