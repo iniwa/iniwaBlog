@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>いにわの庭</title>
-    <link>https://iniwach.netlify.com/</link>
-    <description>Recent content on いにわの庭</description>
+    <title>OVRToolkit on いにわの庭</title>
+    <link>https://iniwach.netlify.com/tags/ovrtoolkit/</link>
+    <description>Recent content in OVRToolkit on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 09 Dec 2019 20:32:30 +0900</lastBuildDate>
     
-	<atom:link href="https://iniwach.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iniwach.netlify.com/tags/ovrtoolkit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -47,29 +47,6 @@ ValveIndexではこのように表示されていると思います。
 使用率が気になる場合はオンにしましょう。
   オーバーレイハンドの切り替え   手首オーバーレイの表示される手が切り替わります。
   タッチスクリーン入力を使用する   要検証</description>
-    </item>
-    
-    <item>
-      <title>自己紹介</title>
-      <link>https://iniwach.netlify.com/post/profile/</link>
-      <pubDate>Wed, 04 Dec 2019 13:33:22 +0000</pubDate>
-      
-      <guid>https://iniwach.netlify.com/post/profile/</guid>
-      <description>自己紹介 はじめまして。いにわです。
-パソコンとゲームが好きです。以上です。
-このサイトについて 私自身がメモ代わりに、もしかしたら誰かが助かるかも知れない内容をPostしていく予定ではあります。
-あとはチラシの裏として小言を書き連ねることもあるかもしれませんね
-各リンク twitter
-YouTube
-Amazon欲しい物リスト
-使用PC OS : Windows 10 64bit Home
-CPU : Ryzen9 3950X
-M/B : Asrock X570 PGX
-RAM : G.skill Trident Z RGB 3200Mhz CL14 8GB*4
-GPU : Zotac RTX 2080ti AMP Edition
-CPU Cooler : Corsair H150i PRO RGB
-OS SSD : CFD M.2 NVme SSD PCIe Gen4 500GB CSSD-M2B5GPG3VNF
-Data M.2 SSD : Samsung SSD 1TB 970 EVO M.2</description>
     </item>
     
   </channel>

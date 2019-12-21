@@ -9,5 +9,3 @@ tags:
   -
   -
 ---
-
-<!-- hugo server --watch --BuildDraft ///これでdragt: trueが見れる -->
