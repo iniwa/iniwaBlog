@@ -1,19 +1,25 @@
 ---
 title: "OVRtoolkitが便利"
 date: 2019-12-09T20:32:30+09:00
-draft: true
-thumbnail: images\VR\OVRToolkit\OVRToolKit.png
+draft: false
+thumbnail: images/VR/OVRToolkit/OVRToolKit.png
 categories:
   - VR
 tags:
   - OVRToolkit
   - ソフトウェア
+  - 便利
 ---
 
 
+# _本記事はまだ製作途中の物です。_  
+実際に使用している動画を投稿予定ですので今しばらくお待ち下さい。  
+Steamストアページの方に実際に使用されている動画があるので 一度ご確認ください。  
+
+---
+
 ## はじめに  
 今回はSteamVRで便利なソフト「OVR Toolkit」を紹介します。  
-実際に使用している動画を載せますので 一緒にご確認ください。  
 
 ### 何ができるソフトなのか  
 このソフトはVR内でデスクトップを表示、操作を行うことができます。  
@@ -33,7 +39,7 @@ SteamVRの設定でVR起動時に同時起動ができるのですが、僕の�
 ### メニューの出し方  
 OVRTookKitを起動すると デスクトップの方に下記画像のようなウィンドウが表示されています。  
 
-![DesktopImage](\images\VR\OVRToolkit\DesktopImage.png)  
+![DesktopImage](/images/VR/OVRToolkit/DesktopImage.png)  
 
 ValveIndexではこのように表示されていると思います。  
 この画像に「両方のグリップボタンを同時に2回押します」と書いています。  
@@ -44,16 +50,16 @@ ValveIndexではこのように表示されていると思います。
 それでは、実際にVR内での設定を紹介していきます。  
 
 ### 手首オーバーレイ  
-本ソフトを起動すると 手首に下画像のようなUIが出てきます（初期設定）。  
+本ソフトを起動すると 手首に下画像のようなUIが出てきます。  
 
-![TekubiUI](\images\VR\OVRToolkit\OverView.png)  
+![TekubiUI](/images/VR/OVRToolkit/OverView.png)  
 
 現在時刻、VR起動時間、バッテリー残量が見れる優秀なUIです。  
 
 ### メインメニュー  
 VR内でメニューを出すと一番最初に出てくる画面です。  
 
-![MainMenu](\images\VR\OVRToolkit\Mainmenu.png)  
+![MainMenu](/images/VR/OVRToolkit/Mainmenu.png)  
 
 下部メニューから各設定やキーボードを開けます。  
 中央下部の「新しいウィンドウを作成する」から新規ウィンドウを開けます。  
@@ -61,13 +67,12 @@ VR内でメニューを出すと一番最初に出てくる画面です。
 ### 新規ウィンドウを開くと  
 新規ウィンドウを開くと 近くにウィンドウがドロップします。  
 こちらはグリップ長押しで 掴んで移動させる事ができます。  
-詳細設定は後ほど記述しています。  
 
 ### 全体設定  
 メニュー下部の「全体設定」を押すと出てくる画面です。  
 
-![GlobalSetting1](\images\VR\OVRToolkit\Setting1)  
-![GlobalSetting2](\images\VR\OVRToolkit\Setting2)  
+![GlobalSetting1](/images/VR/OVRToolkit/Setting1.png)  
+![GlobalSetting2](/images/VR/OVRToolkit/Setting2.png)  
 
 - # 手首のオーバーレイを有効にする  
 上で記した 手首に表示されるUIの表示 非表示を切り替えます。  
@@ -104,8 +109,8 @@ __要検証__
 メニュー下部のウィンドウ設定を押すと出てくる画面です。  
 VR内で表示している各ウィンドウをクリックして 設定ウィンドウを指定します。  
 
-![WindowSetting1](\images\VR\OVRToolkit\WindowSetting1.png)  
-![WindowSetting2](\images\VR\OVRToolkit\WindowSetting2.png)  
+![WindowSetting1](/images/VR/OVRToolkit/WindowSetting1.png)  
+![WindowSetting2](/images/VR/OVRToolkit/WindowSetting2.png)  
 
 - # ピンウィンドウ  
 ここにチェックを入れるとメニューを閉じた後も ウィンドウが表示されます。  
@@ -132,4 +137,12 @@ __要検証__
 - # 遺跡対象デバイス  
 どのデバイスに追従するかを設定できます。  
 無しの場合はリアル座標、左右の手はコントローラに  
-HMDだとHUDのようなイメージで追従されます。  
+HMDだと頭に追従されます。  
+
+##
+
+### 最後に  
+この記事はブログの書き方 マークダウン書式の練習として作製しました。  
+読みにくい 分かりにくい点等山積みだとは思いますがご容赦ください。  
+
+ドラフトでの投稿になりますが そのうち完成させます。お待ち下さい。  
