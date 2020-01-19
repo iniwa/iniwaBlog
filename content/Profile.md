@@ -1,5 +1,5 @@
 ---
-title: 自己紹介
+title: いにわの庭
 date: 2019-12-04T13:33:22.000Z
 draft: false
 thumbnail: images/post/自己紹介.jpg
