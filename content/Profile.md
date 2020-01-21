@@ -30,6 +30,7 @@ Hugoやマークダウン等への好奇心からこのブログを開設しま�
 [YouTube](https://www.youtube.com/channel/UCLaOje60cy_9qPJkB_G-AwA?view_as)  
 [Amazon欲しい物リスト](https://www.amazon.co.jp/hz/wishlist/ls/W24N0AURVEG1/ref=as_li_ss_tl?_encoding=UTF8&type=wishlist&linkCode=ll2&tag=iniwa-22&linkId=edd103709335d132eebad0fa5b616b46&language=ja_JP)  
 [VroidHUB](https://hub.vroid.com/users/17414090)  
+[Steamプロフィール](https://steamcommunity.com/id/iniwajp/)  
 
 ## 使用PC
 
