@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>独り言 on いにわの庭</title>
-    <link>https://iniwach.netlify.com/categories/%E7%8B%AC%E3%82%8A%E8%A8%80/</link>
-    <description>Recent content in 独り言 on いにわの庭</description>
+    <title>YouTube on いにわの庭</title>
+    <link>https://iniwach.netlify.com/tags/youtube/</link>
+    <description>Recent content in YouTube on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 28 Jan 2020 00:05:01 +0900</lastBuildDate>
     
-	<atom:link href="https://iniwach.netlify.com/categories/%E7%8B%AC%E3%82%8A%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iniwach.netlify.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -37,33 +37,6 @@ Vtuberが爆発的に増えだした頃にもやろうと思ったんですが�
  意気込みを少しだけお話しましたが、2月は仕事で出張の連続のため全く進みません。
 でも、それでも今日この日に宣言して少しでも前に進めておかないと一生何もしないと思ったので記事を書きました。
 今年の抱負は「頑張らないよう頑張る」です。</description>
-    </item>
-    
-    <item>
-      <title>いにわの庭</title>
-      <link>https://iniwach.netlify.com/profile/</link>
-      <pubDate>Wed, 04 Dec 2019 13:33:22 +0000</pubDate>
-      
-      <guid>https://iniwach.netlify.com/profile/</guid>
-      <description>自己紹介 いにわです。
-パソコンとゲームが好きです。
-文字が読めない頃からパソコンを触っていました（らしい）。
-物心つく頃にはゲームが大好きでした。
-近くないうちに本格水冷で変態スペックなパソコンを組みたいです。
-このサイトについて Hugoやマークダウン等への好奇心からこのブログを開設しました。 公開していますがだいたい自己満足です。期待はしない事を推奨します。
-各リンク twitter
-YouTube
-Amazon欲しい物リスト
-VroidHUB
-Steamプロフィール
-使用PC OS : Windows 10 64bit Home
-CPU : Ryzen9 3950X
-M/B : Asrock X570 PGX
-RAM : G.skill Trident Z RGB 3200Mhz CL14 8GB*4
-GPU : Zotac RTX 2080ti AMP Edition
-CPU Cooler : Corsair H150i PRO RGB
-OS SSD : CFD M.2 NVme SSD PCIe Gen4 500GB CSSD-M2B5GPG3VNF
-Data M.2 SSD : Samsung SSD 1TB 970 EVO M.</description>
     </item>
     
   </channel>

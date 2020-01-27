@@ -6,34 +6,37 @@
     <description>Recent content in Posts on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Dec 2019 13:33:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 00:05:01 +0900</lastBuildDate>
     
 	<atom:link href="https://iniwach.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>自己紹介</title>
-      <link>https://iniwach.netlify.com/post/profile/</link>
-      <pubDate>Wed, 04 Dec 2019 13:33:22 +0000</pubDate>
+      <title>動画投稿をはじめます</title>
+      <link>https://iniwach.netlify.com/post/youtubestart/</link>
+      <pubDate>Tue, 28 Jan 2020 00:05:01 +0900</pubDate>
       
-      <guid>https://iniwach.netlify.com/post/profile/</guid>
-      <description>自己紹介 いにわです。
-パソコンとゲームが好きです。
-文字が読めない頃からパソコンを触っていました（らしい）。
-物心つく頃にはゲームが大好きでした。
-近くないうちに本格水冷で変態スペックなパソコンを組みたいです。
-このサイトについて Hugoやマークダウン等への好奇心からこのブログを開設しました。 公開していますがだいたい自己満足です。期待はしない事を推奨します。
-各リンク twitter
-YouTube
-Amazon欲しい物リスト
-使用PC OS : Windows 10 64bit Home
-CPU : Ryzen9 3950X
-M/B : Asrock X570 PGX
-RAM : G.skill Trident Z RGB 3200Mhz CL14 8GB*4
-GPU : Zotac RTX 2080ti AMP Edition
-CPU Cooler : Corsair H150i PRO RGB
-OS SSD : CFD M.2 NVme SSD PCIe Gen4 500GB CSSD-M2B5GPG3VNF
-Data M.2 SSD : Samsung SSD 1TB 970 EVO M.</description>
+      <guid>https://iniwach.netlify.com/post/youtubestart/</guid>
+      <description>この度動画投稿を始めることを宣言します! と言いつつ、まだ何も準備してないんですけどね。
+ 動画投稿したいなぁとはかなり前、VRCを始める以前から思ってたんですよね。
+実は一時期してた事があったり
+Vtuberが爆発的に増えだした頃にもやろうと思ったんですが、重い腰が上がらず見過ごしてしまいました。
+大きめな後悔ではあります。とりあえずでもやっとけばよかったって。
+そして今日！ここで宣言しておくことでせざるをえない状況を先に作っておこうかなと。
+背水の陣です。
+どんな動画を投稿したいか 今考えていることの第一候補に 既にいくつか投稿している解説(?)動画をもっと広げられないかなと考えてます。
+最近 静的サイトジェネレータ(本ブログ)を触りだしたわけですが、こちらで記事と動画でダブルで解説すればかなり分かりやすいのではないかと。
+また何か便利そうな物を見つけたときは作ります。次は動画の編集もっと頑張ります&amp;hellip;.
+既存の記事を完成させろって話ですけど
+ 次に考えてるのは ありきたりですけどゲーム実況とか。
+というのも、VRゲームの日本人実況動画って非常に少ないんですよね。ここ案外穴場なんじゃないかって考えてます。
+需要あると思うんですよね。
+ どこかの大手YouTuberが言ってたことなんですけど、動画って残るんですよね。
+友達と一緒にゲームしてて面白かった場面を動画に残してたりするんですが、見返すと「こんな事あったなぁｗ」って面白いんですよね。
+それを公開しておくのもまた一興かなと。
+ 意気込みを少しだけお話しましたが、2月は仕事で出張の連続のため全く進みません。
+でも、それでも今日この日に宣言して少しでも前に進めておかないと一生何もしないと思ったので記事を書きました。
+今年の抱負は「頑張らないよう頑張る」です。</description>
     </item>
     
   </channel>
