@@ -28,7 +28,9 @@ Hugoやマークダウン等への好奇心からこのブログを開設しま�
 
 [twitter](https://twitter.com/iniwach)  
 [YouTube](https://www.youtube.com/channel/UCLaOje60cy_9qPJkB_G-AwA?view_as)  
-[Amazon欲しい物リスト](https://www.amazon.co.jp/hz/wishlist/ls/W24N0AURVEG1/ref=as_li_ss_tl?_encoding=UTF8&type=wishlist&linkCode=ll2&tag=iniwa-22&linkId=edd103709335d132eebad0fa5b616b46&language=ja_JP)
+[Amazon欲しい物リスト](https://www.amazon.co.jp/hz/wishlist/ls/W24N0AURVEG1/ref=as_li_ss_tl?_encoding=UTF8&type=wishlist&linkCode=ll2&tag=iniwa-22&linkId=edd103709335d132eebad0fa5b616b46&language=ja_JP)  
+[VroidHUB](https://hub.vroid.com/users/17414090)  
+[Steamプロフィール](https://steamcommunity.com/id/iniwajp/)  
 
 ## 使用PC
 
@@ -50,10 +52,17 @@ Monitor3 : [Acer KG251QFbmidpx](https://www.amazon.co.jp/gp/product/B0756CV1CG/r
 Mouse : [BenQ ZOWIE EC2-B](https://www.amazon.co.jp/gp/product/B077PC2WQQ/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=63cd0f80b15b1225813c1a20b93df004&language=ja_JP)  
 Keybord : [東プレ REALFORCE A R2](https://www.amazon.co.jp/gp/product/B077Q451L9/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=f6c42a3e0d6d3b3abc750035f64bce4e&language=ja_JP)  
 Mousepad : [ARTISAN FX シデンカイ サイズM 中間層MID](https://www.artisan-jp.com/fx-shidenkai.html)  
-Audio amp : [SNNHEISER GSX 1000](https://www.amazon.co.jp/gp/product/B01LDTP484/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=5eba74e51dcb2d91baab38b1908a1513&language=ja_JP)  
-Headphone : [TAGO-STUDIO T03-01](https://www.e-earphone.jp/tago-studio/takasaki-t3-01)  
 VR HMD : [Valve Index](https://store.steampowered.com/valveindex)  
 Controller : [SCUF VANTAGE 2 MODERN WARFARE](https://gaming.sazabies.com/products/detail/307)  
+
+# Audio  
+USB Mixer : [YAMAHA AG06](https://www.amazon.co.jp/gp/product/B00ST0FK12/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)  
+Audio Interface : [ZOOM U-24](https://www.amazon.co.jp/gp/product/B01FJLYT8S/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)  
+Audio amp : [SNNHEISER GSX 1200](https://www.amazon.co.jp/dp/B01LDTP46G/ref=cm_sw_r_tw_dp_U_x_IRLlEbZBWVB7F)  
+Dynamic mic : [AKG D5](https://www.soundhouse.co.jp/products/detail/item/99380/)  
+Pin mic : [Comica CVM-V02](https://www.amazon.co.jp/gp/product/B078K8K5KW/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)  
+Headphone : [TAGO-STUDIO T03-01](https://www.e-earphone.jp/tago-studio/takasaki-t3-01)  
+
 
 ## SpecialThanks  
 
