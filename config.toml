@@ -4,7 +4,7 @@ title = "いにわの庭"
 theme = "hugo_theme_robust"
 
 googleAnalytics = "UA-153853958-2" # Optional
-disqusShortname = "XYWZ"
+disqusShortname = "iniwanoting"
 
 tag = "tags"
 categorie = "categories"
