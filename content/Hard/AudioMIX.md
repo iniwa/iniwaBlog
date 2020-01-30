@@ -1,6 +1,6 @@
 ---
 title: "音環境を強化した話"
-date: 2020-01-14T22:15:18+09:00
+date: 2020-01-30T21:35:18+09:00
 draft: false
 thumbnail: images/post/自己紹介.jpg
 categories:
