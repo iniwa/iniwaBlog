@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.61.0" />
+
+<link rel="apple-touch-icon" href="https://iniwach.netlify.comimages/logo.png">
+
+
+<link rel="amphtml" type="text/html" href="https://iniwach.netlify.com/amp/hard/audiomix/" title="いにわの庭">
+
+
+
+    <link rel="canonical" href="https://iniwach.netlify.com/hard/audiomix/">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>音環境を強化した話 - いにわの庭</title>
+    
+<meta name="description" content="最初にまずは何をできるようにしたのかを簡潔に。
+ShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。
+これだけです。
+これだけなのですが 我ながら面白い環境になったので 記述して残しておこうかなと。
+同じような環境を組みたいと思う物好きがいたら嬉しいなぁ。
+はじめに これから私の組んだ環境を説明するのですが、その前に何をしたいのかを説明しないといけません。
+今更ですが、音の記事を求めて来た方はブラウザバックを推奨します。
+こちらはゲーマー向け（とも言い切れませんが）記事です。
+ShadowPlayをもっと便利に使いたい ゲーマーな皆さんは既に使ってますよね。ShadowPlayという便利ソフトがあります。
+知らなかった方はこちらからダウンロードできますので是非とも。非常に便利なソフトです。
+ このShdowPlayを使用すれば ”直前数分間を保存” という事ができます。
+友達と一緒にゲームしてる際 面白いシーンは唐突に来ますよね。
+そういうベストシーンを巻き戻して保存できるんです。
+ ですが、この”巻き戻し機能”はまだ今回の本題ではありません。
+本記事の本題は、 &ldquo;音声を複数トラックで保存” できる事にあります。
+こちらの設定を「両方のトラックを分離する」にすると ゲームの音声とマイクからの入力が別のトラックで保存されます。
+こちらの機能により、動画編集ソフトを使えば ゲーム音とマイクの音声を別々に調整することができます。 画像の例で言うと オーディオ1にメイン音声、オーディオ2にマイク音声が入ります。
+文面で説明するのは難しいので画像からなんとなく察してください&hellip;.
+ この機能をもっと便利に使うのが本題なのですが、その前に。
+まずはどこの音が録音されているのかを知ってもらいます。
+ここがネックです。
+メインの音声には 「既定のデバイス」 で再生されている音声が
+マイクの方は設定画面がありますね。
+簡単な話だと思いますよね。なぜここがネックになるのでしょうか。
+まずは一般的な方の環境ではどうなるのかを見てみましょう。
+この通り通話相手の声は絶対に入ってしまいます。
+では次に デバイスの機能で通話音声とゲーム音声を個別で音量調整できる事がありますよね。具体的にはSteelseriesのArctisシリーズ や SennheiserのGSX1000等ができます。
+そういうデバイスを持っている方はどうなるのか。
+そもそもどうやって個別に音量調整を可能にしているのか。
+「既定のデバイス」はWindows側で設定します。
+そして「既定の通信デバイス」というものも設定できます。
+このデバイスが2つある事を利用して個別に音量調整しているんです。
+実際のヘッドホンは1つしかないのですが、Windowsはヘッドホンが2つあると認識しているんです。
+では、この環境では音声がどう保存されるのか。
+今度は通話相手の声が入らなくなりました。
+不便ですよね。通話相手と自分の声を一緒にまとめてオンオフできたらいいのにって思いませんか？
+それがね、できるんですよ。
+通話位相手の声と自分の声を1つのデバイスに出力する ここの小タイトルはどうしたらわかりやすくなるんだ。
+ここまでの情報の整理とおさらいです。
+ ShadowPlayは優秀な録画ソフト 音声トラックを分けて保存できる 保存される音声は「既定のデバイス」と「マイク入力」  そして やりたい事は「通話と自分の声を同時にオンオフする」です。
+どうすればできるのか。小タイトルに書いてますね。
+通話と自分の声を混ぜた音声をマイク入力に入れてあげれば良いんです。">
+
+<meta property="og:title" content="音環境を強化した話 - いにわの庭">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://iniwach.netlify.com/hard/audiomix/">
+<meta property="og:image" content="https://iniwach.netlify.com/images/post/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg">
+<meta property="og:site_name" content="いにわの庭">
+<meta property="og:description" content="最初にまずは何をできるようにしたのかを簡潔に。
+ShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。
+これだけです。
+これだけなのですが 我ながら面白い環境になったので 記述して残しておこうかなと。
+同じような環境を組みたいと思う物好きがいたら嬉しいなぁ。
+はじめに これから私の組んだ環境を説明するのですが、その前に何をしたいのかを説明しないといけません。
+今更ですが、音の記事を求めて来た方はブラウザバックを推奨します。
+こちらはゲーマー向け（とも言い切れませんが）記事です。
+ShadowPlayをもっと便利に使いたい ゲーマーな皆さんは既に使ってますよね。ShadowPlayという便利ソフトがあります。
+知らなかった方はこちらからダウンロードできますので是非とも。非常に便利なソフトです。
+ このShdowPlayを使用すれば ”直前数分間を保存” という事ができます。
+友達と一緒にゲームしてる際 面白いシーンは唐突に来ますよね。
+そういうベストシーンを巻き戻して保存できるんです。
+ ですが、この”巻き戻し機能”はまだ今回の本題ではありません。
+本記事の本題は、 &ldquo;音声を複数トラックで保存” できる事にあります。
+こちらの設定を「両方のトラックを分離する」にすると ゲームの音声とマイクからの入力が別のトラックで保存されます。
+こちらの機能により、動画編集ソフトを使えば ゲーム音とマイクの音声を別々に調整することができます。 画像の例で言うと オーディオ1にメイン音声、オーディオ2にマイク音声が入ります。
+文面で説明するのは難しいので画像からなんとなく察してください&hellip;.
+ この機能をもっと便利に使うのが本題なのですが、その前に。
+まずはどこの音が録音されているのかを知ってもらいます。
+ここがネックです。
+メインの音声には 「既定のデバイス」 で再生されている音声が
+マイクの方は設定画面がありますね。
+簡単な話だと思いますよね。なぜここがネックになるのでしょうか。
+まずは一般的な方の環境ではどうなるのかを見てみましょう。
+この通り通話相手の声は絶対に入ってしまいます。
+では次に デバイスの機能で通話音声とゲーム音声を個別で音量調整できる事がありますよね。具体的にはSteelseriesのArctisシリーズ や SennheiserのGSX1000等ができます。
+そういうデバイスを持っている方はどうなるのか。
+そもそもどうやって個別に音量調整を可能にしているのか。
+「既定のデバイス」はWindows側で設定します。
+そして「既定の通信デバイス」というものも設定できます。
+このデバイスが2つある事を利用して個別に音量調整しているんです。
+実際のヘッドホンは1つしかないのですが、Windowsはヘッドホンが2つあると認識しているんです。
+では、この環境では音声がどう保存されるのか。
+今度は通話相手の声が入らなくなりました。
+不便ですよね。通話相手と自分の声を一緒にまとめてオンオフできたらいいのにって思いませんか？
+それがね、できるんですよ。
+通話位相手の声と自分の声を1つのデバイスに出力する ここの小タイトルはどうしたらわかりやすくなるんだ。
+ここまでの情報の整理とおさらいです。
+ ShadowPlayは優秀な録画ソフト 音声トラックを分けて保存できる 保存される音声は「既定のデバイス」と「マイク入力」  そして やりたい事は「通話と自分の声を同時にオンオフする」です。
+どうすればできるのか。小タイトルに書いてますね。
+通話と自分の声を混ぜた音声をマイク入力に入れてあげれば良いんです。">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="いにわの庭">
+<meta name="twitter:url" content="https://iniwach.netlify.com/hard/audiomix/">
+<meta name="twitter:title" content="音環境を強化した話 - いにわの庭">
+<meta name="twitter:description" content="最初にまずは何をできるようにしたのかを簡潔に。
+ShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。
+これだけです。
+これだけなのですが 我ながら面白い環境になったので 記述して残しておこうかなと。
+同じような環境を組みたいと思う物好きがいたら嬉しいなぁ。
+はじめに これから私の組んだ環境を説明するのですが、その前に何をしたいのかを説明しないといけません。
+今更ですが、音の記事を求めて来た方はブラウザバックを推奨します。
+こちらはゲーマー向け（とも言い切れませんが）記事です。
+ShadowPlayをもっと便利に使いたい ゲーマーな皆さんは既に使ってますよね。ShadowPlayという便利ソフトがあります。
+知らなかった方はこちらからダウンロードできますので是非とも。非常に便利なソフトです。
+ このShdowPlayを使用すれば ”直前数分間を保存” という事ができます。
+友達と一緒にゲームしてる際 面白いシーンは唐突に来ますよね。
+そういうベストシーンを巻き戻して保存できるんです。
+ ですが、この”巻き戻し機能”はまだ今回の本題ではありません。
+本記事の本題は、 &ldquo;音声を複数トラックで保存” できる事にあります。
+こちらの設定を「両方のトラックを分離する」にすると ゲームの音声とマイクからの入力が別のトラックで保存されます。
+こちらの機能により、動画編集ソフトを使えば ゲーム音とマイクの音声を別々に調整することができます。 画像の例で言うと オーディオ1にメイン音声、オーディオ2にマイク音声が入ります。
+文面で説明するのは難しいので画像からなんとなく察してください&hellip;.
+ この機能をもっと便利に使うのが本題なのですが、その前に。
+まずはどこの音が録音されているのかを知ってもらいます。
+ここがネックです。
+メインの音声には 「既定のデバイス」 で再生されている音声が
+マイクの方は設定画面がありますね。
+簡単な話だと思いますよね。なぜここがネックになるのでしょうか。
+まずは一般的な方の環境ではどうなるのかを見てみましょう。
+この通り通話相手の声は絶対に入ってしまいます。
+では次に デバイスの機能で通話音声とゲーム音声を個別で音量調整できる事がありますよね。具体的にはSteelseriesのArctisシリーズ や SennheiserのGSX1000等ができます。
+そういうデバイスを持っている方はどうなるのか。
+そもそもどうやって個別に音量調整を可能にしているのか。
+「既定のデバイス」はWindows側で設定します。
+そして「既定の通信デバイス」というものも設定できます。
+このデバイスが2つある事を利用して個別に音量調整しているんです。
+実際のヘッドホンは1つしかないのですが、Windowsはヘッドホンが2つあると認識しているんです。
+では、この環境では音声がどう保存されるのか。
+今度は通話相手の声が入らなくなりました。
+不便ですよね。通話相手と自分の声を一緒にまとめてオンオフできたらいいのにって思いませんか？
+それがね、できるんですよ。
+通話位相手の声と自分の声を1つのデバイスに出力する ここの小タイトルはどうしたらわかりやすくなるんだ。
+ここまでの情報の整理とおさらいです。
+ ShadowPlayは優秀な録画ソフト 音声トラックを分けて保存できる 保存される音声は「既定のデバイス」と「マイク入力」  そして やりたい事は「通話と自分の声を同時にオンオフする」です。
+どうすればできるのか。小タイトルに書いてますね。
+通話と自分の声を混ぜた音声をマイク入力に入れてあげれば良いんです。">
+<meta name="twitter:image" content="https://iniwach.netlify.com/images/post/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/iniwach.netlify.com"
+    },
+    "headline": "音環境を強化した話-いにわの庭",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/iniwach.netlify.com\/images\/post\/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2020-01-14T22:15:18JST",
+    "dateModified": "2020-01-14T22:15:18JST",
+    "author": {
+      "@type": "Person",
+      "name": "いにわの庭"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "いにわの庭",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/iniwach.netlify.comimages/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "最初にまずは何をできるようにしたのかを簡潔に。\nShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。\nこれだけです。\nこれだけなのですが 我ながら面白い環境になったので 記述して残しておこうかなと。\n同じような環境を組みたいと思う物好きがいたら嬉しいなぁ。\nはじめに これから私の組んだ環境を説明するのですが、その前に何をしたいのかを説明しないといけません。\n今更ですが、音の記事を求めて来た方はブラウザバックを推奨します。\nこちらはゲーマー向け（とも言い切れませんが）記事です。\nShadowPlayをもっと便利に使いたい ゲーマーな皆さんは既に使ってますよね。ShadowPlayという便利ソフトがあります。\n知らなかった方はこちらからダウンロードできますので是非とも。非常に便利なソフトです。\n このShdowPlayを使用すれば ”直前数分間を保存” という事ができます。\n友達と一緒にゲームしてる際 面白いシーンは唐突に来ますよね。\nそういうベストシーンを巻き戻して保存できるんです。\n ですが、この”巻き戻し機能”はまだ今回の本題ではありません。\n本記事の本題は、 \x26ldquo;音声を複数トラックで保存” できる事にあります。\nこちらの設定を「両方のトラックを分離する」にすると ゲームの音声とマイクからの入力が別のトラックで保存されます。\nこちらの機能により、動画編集ソフトを使えば ゲーム音とマイクの音声を別々に調整することができます。 画像の例で言うと オーディオ1にメイン音声、オーディオ2にマイク音声が入ります。\n文面で説明するのは難しいので画像からなんとなく察してください\x26hellip;.\n この機能をもっと便利に使うのが本題なのですが、その前に。\nまずはどこの音が録音されているのかを知ってもらいます。\nここがネックです。\nメインの音声には 「既定のデバイス」 で再生されている音声が\nマイクの方は設定画面がありますね。\n簡単な話だと思いますよね。なぜここがネックになるのでしょうか。\nまずは一般的な方の環境ではどうなるのかを見てみましょう。\nこの通り通話相手の声は絶対に入ってしまいます。\nでは次に デバイスの機能で通話音声とゲーム音声を個別で音量調整できる事がありますよね。具体的にはSteelseriesのArctisシリーズ や SennheiserのGSX1000等ができます。\nそういうデバイスを持っている方はどうなるのか。\nそもそもどうやって個別に音量調整を可能にしているのか。\n「既定のデバイス」はWindows側で設定します。\nそして「既定の通信デバイス」というものも設定できます。\nこのデバイスが2つある事を利用して個別に音量調整しているんです。\n実際のヘッドホンは1つしかないのですが、Windowsはヘッドホンが2つあると認識しているんです。\nでは、この環境では音声がどう保存されるのか。\n今度は通話相手の声が入らなくなりました。\n不便ですよね。通話相手と自分の声を一緒にまとめてオンオフできたらいいのにって思いませんか？\nそれがね、できるんですよ。\n通話位相手の声と自分の声を1つのデバイスに出力する ここの小タイトルはどうしたらわかりやすくなるんだ。\nここまでの情報の整理とおさらいです。\n ShadowPlayは優秀な録画ソフト 音声トラックを分けて保存できる 保存される音声は「既定のデバイス」と「マイク入力」  そして やりたい事は「通話と自分の声を同時にオンオフする」です。\nどうすればできるのか。小タイトルに書いてますね。\n通話と自分の声を混ぜた音声をマイク入力に入れてあげれば良いんです。"
+  }
+</script>
+
+
+    <style>
+html {
+  font-size: 18px;
+  background-color: rgba(236,239,241,.5);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+body {
+  color: #333;
+  font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
+  font-feature-settings : "palt";
+  font-size: inherit;
+  line-height: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed #cfd8dc;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1rem;
+}
+
+a {
+  color: #2196f3;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  font-size: .8rem;
+  padding: .5rem;
+}
+
+tr {
+  border-bottom: 1px dashed #ddd;
+}
+
+/* Layouts */
+main,
+aside {
+  display: block;
+}
+
+main { padding: 1rem 0 3rem 0; }
+aside.h { padding: 3rem 0; }
+
+main.f,
+aside.f {
+  background-color: #333;
+  border-top: 2px dashed #fff;
+  border-bottom: 2px dashed #fff;
+}
+
+.l-container {
+  position: relative;
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.l-container.thin {
+  max-width: 44rem;
+}
+
+.l-header {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.l-header .description {
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+.l-footer {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  font-size: .6rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .l-sidebar {
+    margin-top: 4rem;
+  }
+}
+
+.mrow {
+  margin: 0 -1rem;
+  overflow: hidden;
+}
+
+.mcol {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 1rem;
+}
+
+.c6 { width: 50%; }
+.c4 { width: 33.26323833%; }
+.c8 { width: 66.66666%; }
+
+@media (max-width: 768px) {
+  .mcol {
+    width: 100%;
+    float: none;
+  }
+}
+
+.logo a {
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.articles {
+  margin: -1rem 0;
+  margin-bottom: 1rem;
+}
+
+.articles.sm {
+  margin: -.5rem 0;
+  margin-bottom: 0;
+}
+
+article {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+article.li {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  height: 20rem;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+article.li > a {
+  display: block;
+  color: #333;
+}
+
+article.li .inner {
+  padding: 1rem;
+}
+
+article.li .thumb {
+  height: 8rem;
+}
+
+article.li .title {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+article.li .summary {
+  font-size: .8rem;
+  height: 6rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+article.li .summary::after {
+  content: '...';
+}
+
+article.lism {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  margin: .5rem 0;
+}
+
+article.lism::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+article.lism > a {
+  display: block;
+  color: #333;
+}
+
+article.lism .inner {
+  display: table-cell;
+  vertical-align: middle;
+  height: 5rem;
+  padding: 0 .75rem;
+}
+
+article.lism .thumb {
+  width: 5rem;
+  height: 5rem;
+  float: left;
+}
+
+article.lism .title {
+  font-weight: 700;
+  font-size: .8rem;
+  margin-bottom: .25rem;
+}
+
+article.sn {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  margin-bottom: 1rem;
+}
+
+article.sn .thumb {
+  height: 20rem;
+}
+
+@media (max-width: 768px) {
+  article.sn .thumb {
+    height: 10rem;
+  }
+}
+
+article.sn > .article-header,
+article.sn > .article-body,
+article.sn .article-footer {
+  padding: 2rem;
+}
+
+article.sn > .article-body {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-header,
+  article.sn > .article-body,
+  article.sn .article-footer {
+    padding: 1rem;
+  }
+
+  article.sn > .article-body {
+    padding: 0 1rem;
+  }
+}
+
+article.sn > .article-header .title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-header .title {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+  }
+}
+
+article.sn > .article-header .facts {
+  margin-bottom: 1rem;
+}
+
+article.sn > .article-body {
+  margin-bottom: 1.5rem;
+}
+
+article.sn > .article-body h2 {
+  border-bottom: .25rem solid #333;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  padding: .5rem 0;
+}
+
+article.sn > .article-body h3 {
+  border-left: .5rem solid #333;
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  padding: .125rem .5rem;
+}
+
+article.sn > .article-body ul,
+article.sn > .article-body ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+article.sn > .article-body li {
+  padding-bottom: .5rem;
+  line-height: 1.5rem;
+}
+
+article.sn > .article-body li:last-child {
+  padding-bottom: 0;
+}
+article.sn > .article-body p {
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+article.sn > .article-body strong,
+article.sn > .article-body em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+article.sn > .article-body strong {
+  box-shadow: 0 -.5rem 0 0 #ffc107 inset;
+}
+
+article.sn > .article-body em {
+  color: #8bc34a;
+}
+
+article.sn > .article-body code,
+article.sn > .article-body pre {
+  font-family: Menlo, Consolas, monospace;
+  font-size: .7rem;
+}
+
+article.sn > .article-body pre {
+  background-color: #333;
+  color: #fff;
+  line-height: 1rem;
+  margin: 1.5rem -2rem;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-body pre {
+    margin: 1.5rem -1rem;
+  }
+}
+
+article.sn > .article-body pre > code {
+  display: block;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-body pre > code {
+    padding: 1rem;
+  }
+}
+
+article.sn > .article-body p code {
+  background-color: #eceff1;
+  color: #333;
+  border-radius: 4px;
+  margin: 0 .25rem;
+  padding: .375rem;
+  white-space: nowrap;
+}
+
+article.sn > .article-body blockquote {
+  position: relative;
+  border-left: .25rem solid #333;
+  font-size: .8rem;
+  padding: .125rem 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-body blockquote {
+    font-size: 1rem;
+  }
+}
+
+article.sn > .article-body blockquote p {
+  margin: .5rem 0;
+  line-height: 1rem;
+}
+
+article.sn > .article-body figure {
+  margin: 1.5rem 0;
+}
+
+article.sn > .article-body img,
+article.sn > .article-body figure img,
+article.sn > .article-body figure amp-img {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  max-width: 100%;
+}
+
+article.sn > .article-body figcaption {
+  color: #cfd8dc;
+  font-size: .8rem;
+  font-weight: 700;
+  margin-top: .5rem;
+}
+
+.facts li {
+  display: inline;
+  font-size: .8rem;
+  margin-right: 1rem;
+}
+
+.facts i {
+  color: #cfd8dc;
+  margin-right: .5em;
+}
+
+.facts.sm li {
+  font-size: .7rem;
+}
+
+.sections.sidebar {
+  margin: -1rem 0;
+}
+
+.sections.footer {
+  margin: -1rem 0;
+}
+
+section.sidebar {
+  margin: 2rem 0;
+}
+
+section.sidebar > header {
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+section.footer {
+  margin: 1rem 0;
+}
+
+section.footer > header {
+  font-size: .8rem;
+  margin: .5rem 0;
+}
+
+section.footer > header::before {
+  content: "- ";
+}
+
+section.footer > header a {
+  font-weight: 700;
+  color: #333;
+  text-decoration: underline;
+}
+
+.terms {
+  margin: -.25rem;
+}
+
+.terms li {
+  display: inline-block;
+}
+
+.terms a {
+  display: block;
+  float: left;
+  background-color: #333;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .7rem;
+  margin: .25rem;
+  padding: 0 .75rem;
+  line-height: 1.75rem;
+}
+
+.paging {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.paging a {
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  border-radius: 4px;
+  color: #333;
+  padding: 0 1rem;
+  line-height: 3rem;
+}
+
+.page-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.page-title::after {
+  content: '';
+  display: block;
+  border-bottom: .25rem solid #333;
+  width: 3rem;
+  margin: 1.5rem auto;
+}
+
+.page-title > .title {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* Parts:breadcrumb */
+.crumb ol {
+  text-overflow: ellipsis;
+  color: #cfd8dc;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.crumb li {
+  display: inline;
+  font-size: .8rem;
+}
+
+.crumb li::after {
+  content: '›';
+  margin: 0 .25rem 0 .5rem;
+}
+
+.crumb li:last-child::after {
+  content: '';
+}
+
+.crumb a {
+  color: #cfd8dc;
+}
+
+.crumb i {
+  margin-right: .5em;
+}
+
+.share {
+  padding: 0;
+}
+
+.share a {
+  display: inline-block;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  min-width: 1rem;
+  height: 2rem;
+  border-radius: 4px;
+  color: #333;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-align: center;
+  padding: 0 .5rem;
+}
+
+.adj article.lism {
+  margin-bottom: 1rem;
+}
+
+.adj header {
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+.toc {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .toc {
+    padding: 0 1rem;
+  }
+}
+
+.toc {
+  margin: 1rem 0;
+}
+
+.toc nav>ul {
+  background-color: #eceff1;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: .8rem;
+  padding: .5rem 1rem;
+  word-break: break-all;
+  list-style: none;
+}
+
+.toc ul {
+  padding: 0;
+}
+
+.toc ul ul {
+  padding-left: 1rem;
+}
+
+.toc ul ul ul {
+  padding-left: 1rem;
+}
+
+.toc li {
+  color: #90a4ae;
+}
+
+.toc ul ul>li {
+  font-weight: 700;
+  margin: .5rem 0;
+  list-style-type: decimal;
+}
+
+.toc ul ul ul>li {
+  list-style-type: disc;
+  font-weight: 500;
+}
+
+.author {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.author .author-thumb {
+  margin: 0 auto 1rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: #eceff1;
+  background-size: cover;
+  background-position: center;
+}
+
+.author .author-name {
+  margin-bottom: .5rem;
+  font-weight: 700;
+}
+
+.author .author-facts {
+  margin-bottom: 1rem;
+}
+
+.author .author-facts li {
+  display: inline;
+}
+
+.author .author-facts li a {
+  display: inline-block;
+  background-color: #eceff1;
+  width: 1.75rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #333;
+  font-size: .8rem;
+  border-radius: 2px;
+}
+
+.author .author-facts li a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.author .author-description {
+  text-align: left;
+  font-size: .8rem;
+}
+
+.author .author-description p {
+  margin: .5rem 0;
+}
+
+.thumb {
+  background-image: url(https://iniwach.netlify.comimages/default.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.thumb-48b3291ec1ca2bb13d4673708bc4395c {
+  background-image: url(https://iniwach.netlify.com/images/post/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg);
+}
+
+
+
+.thumb-0f46526122bdf6289ed07750a9f45590 {
+  background-image: url(https://iniwach.netlify.com/images/post/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg);
+}
+
+
+
+.thumb-478fefd372f9381ef5219dfde31af0de {
+  background-image: url(https://iniwach.netlify.com/images/VR/OVRToolkit/OVRToolKit.png);
+}
+
+
+
+.thumb-888de97e1031394c8588e99eb2598471 {
+  background-image: url(https://iniwach.netlify.com/images/post/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg);
+}
+
+
+
+
+
+ body { font-family: Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif; } 
+ .h-logo { font-family: Lobster, cursive; } 
+    </style>
+
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', "UA-153853958-2", 'auto', {'useAmpClientId': true});
+ga('send', 'pageview');
+</script>
+
+  </head>
+  <body>
+    <header class="l-header">
+      <div class="l-container">
+        <div class="logo">
+          <a href="https://iniwach.netlify.com">いにわの庭</a>
+        </div>
+        
+<div class="description">
+  いにわのメモ帳的な場所です
+</div>
+
+
+      </div>
+    </header>
+
+    <main>
+      <div class="l-container">
+        
+<div class="mrow">
+  <div class="mcol c8">
+
+    <article class="sn">
+
+  <div class="thumb thumb-0f46526122bdf6289ed07750a9f45590"></div>
+
+  <header class="article-header">
+    <h1 class="title">音環境を強化した話</h1>
+
+    <ul class="facts">
+      <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2020-01-14T22:15:18JST">Jan 14, 2020</time></li>
+      
+      <li><i class="fas fa-bookmark" aria-hidden="true"></i><a href="https://iniwach.netlify.comhard/">HARD</a></li>
+      
+    </ul>
+
+    <aside class="share">
+  <a href="https://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&title=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&text=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&t=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://getpocket.com/edit?url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&title=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fab fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"><i class="fab fa-line" aria-hidden="true"></i></a>
+</aside>
+
+  </header>
+
+  
+
+  <div class="article-body"><p>最初にまずは何をできるようにしたのかを簡潔に。</p>
+<p>ShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。<br>
+これだけです。</p>
+<p>これだけなのですが 我ながら面白い環境になったので 記述して残しておこうかなと。</p>
+<p>同じような環境を組みたいと思う物好きがいたら嬉しいなぁ。</p>
+<h2 id="heading">はじめに</h2>
+<p>これから私の組んだ環境を説明するのですが、その前に何をしたいのかを説明しないといけません。</p>
+<p>今更ですが、音の記事を求めて来た方はブラウザバックを推奨します。<br>
+こちらはゲーマー向け（とも言い切れませんが）記事です。</p>
+<h3 id="shadowplay">ShadowPlayをもっと便利に使いたい</h3>
+<p>ゲーマーな皆さんは既に使ってますよね。ShadowPlayという便利ソフトがあります。<br>
+知らなかった方は<a href="https://www.nvidia.com/ja-jp/geforce/geforce-experience/shadowplay/">こちら</a>からダウンロードできますので是非とも。非常に便利なソフトです。</p>
+<hr>
+<p>このShdowPlayを使用すれば <strong>”直前数分間を保存”</strong> という事ができます。<br>
+友達と一緒にゲームしてる際 面白いシーンは唐突に来ますよね。<br>
+そういうベストシーンを巻き戻して保存できるんです。</p>
+<hr>
+<p>ですが、この”巻き戻し機能”はまだ今回の本題ではありません。</p>
+<p>本記事の本題は、 <strong>&ldquo;音声を複数トラックで保存”</strong> できる事にあります。</p>
+<p><img src="/images/Hard/AudioMix/AudioTrack.PNG" alt="AudioMix"></p>
+<p>こちらの設定を「両方のトラックを分離する」にすると ゲームの音声とマイクからの入力が別のトラックで保存されます。</p>
+<p><img src="/images/Hard/AudioMix/DoubleTrack.PNG" alt="DoubleTrack"></p>
+<p>こちらの機能により、動画編集ソフトを使えば ゲーム音とマイクの音声を別々に調整することができます。
+画像の例で言うと オーディオ1にメイン音声、オーディオ2にマイク音声が入ります。<br>
+文面で説明するのは難しいので画像からなんとなく察してください&hellip;.</p>
+<hr>
+<p>この機能をもっと便利に使うのが本題なのですが、その前に。</p>
+<p>まずはどこの音が録音されているのかを知ってもらいます。<br>
+ここがネックです。</p>
+<p>メインの音声には 「既定のデバイス」 で再生されている音声が<br>
+マイクの方は設定画面がありますね。</p>
+<p>簡単な話だと思いますよね。なぜここがネックになるのでしょうか。</p>
+<p>まずは一般的な方の環境ではどうなるのかを見てみましょう。</p>
+<p><img src="/images/Hard/AudioMix/AudioDef.png" alt="AudioDef"></p>
+<p>この通り通話相手の声は絶対に入ってしまいます。</p>
+<p>では次に デバイスの機能で通話音声とゲーム音声を個別で音量調整できる事がありますよね。具体的にはSteelseriesの<a href="https://www.amazon.co.jp/dp/B07GG2VNW9/ref=cm_sw_r_tw_dp_U_x_X2ChEbVVN2M7">Arctisシリーズ</a>  や Sennheiserの<a href="https://www.amazon.co.jp/dp/B01LDTP484/ref=cm_sw_r_tw_dp_U_x_j4ChEbYYQXP5">GSX1000</a>等ができます。<br>
+そういうデバイスを持っている方はどうなるのか。</p>
+<p>そもそもどうやって個別に音量調整を可能にしているのか。<br>
+「既定のデバイス」はWindows側で設定します。<br>
+そして「既定の通信デバイス」というものも設定できます。<br>
+このデバイスが2つある事を利用して個別に音量調整しているんです。<br>
+実際のヘッドホンは1つしかないのですが、Windowsはヘッドホンが2つあると認識しているんです。<br>
+では、この環境では音声がどう保存されるのか。</p>
+<p><img src="/images/Hard/AudioMix/AudioDefMIX.png" alt="AudioDefMIX"></p>
+<p>今度は通話相手の声が入らなくなりました。</p>
+<p>不便ですよね。通話相手と自分の声を一緒にまとめてオンオフできたらいいのにって思いませんか？<br>
+それがね、できるんですよ。</p>
+<h3 id="1">通話位相手の声と自分の声を1つのデバイスに出力する</h3>
+<p>ここの小タイトルはどうしたらわかりやすくなるんだ。</p>
+<p>ここまでの情報の整理とおさらいです。</p>
+<ul>
+<li>ShadowPlayは優秀な録画ソフト</li>
+<li>音声トラックを分けて保存できる</li>
+<li>保存される音声は「既定のデバイス」と「マイク入力」</li>
+</ul>
+<p>そして やりたい事は「通話と自分の声を同時にオンオフする」です。<br>
+どうすればできるのか。小タイトルに書いてますね。</p>
+<p>通話と自分の声を混ぜた音声をマイク入力に入れてあげれば良いんです。</p>
+<p>極端な話ですが、スピーカの前にマイクを置けばなんとなくはできますね。<br>
+ですが それだと通話相手にループバックされてしまいます。たまに程度なら気になりませんが、常にとなるとちょっと不快ですよね。</p>
+<p>つまり、なにが必要なのか。<br>
+通話用に自分の声しか入らない入力デバイスと、通話と自分の声を混ぜた音声が入る入力デバイスという2つのデバイスが必要になります。<br>
+こちらも図解しました。言葉での説明は難しいです。</p>
+<p><img src="/images/Hard/AudioMix/AudioMIXPerf.png" alt="AudioDefMIXPerf"></p>
+<h2 id="heading-1">機材構想</h2>
+<p>上記画像の環境を構成するにあたっての必要機材はさして多くありません。</p>
+<ul>
+<li>USBミキサー</li>
+<li>オーディオインターフェイス</li>
+<li>マイク(必要であれば)</li>
+</ul>
+<p>これだけあれば環境は構築できます。<br>
+各機材については個々で調べてください。</p>
+<hr>
+<p>では実際にどう組むのかを図示します。</p>
+<p><img src="/images/Hard/AudioMix/AudioPerfMIX.png" alt="AudioPerfMIX"></p>
+<p>オーディオインターフェイスからの入力をDiscord等の通話に載せ、録画ソフトにはUSBミキサーを入れる。<br>
+簡単なんですが 図はややこしくなってしまいました&hellip;.申し訳ないです。</p>
+<h3 id="heading-2">ゲーミングアンプを使いたい</h3>
+<p>最初に言ったShadowplayでやりたい事についてはこれで完成です。</p>
+<p>私はゲーミングアンプを使いたいのです。</p>
+<p>ゲーミングアンプを使うとFPSをプレイしている際の音が全然違います。<br>
+FPSって足音や銃声など 音が非常に大事なんですよね。FPSゲーマーには是非とも使っていただきたいデバイスです。</p>
+<p>今回 実際に私が使用していたのが<a href="https://www.amazon.co.jp/dp/B01LDTP484/ref=cm_sw_r_tw_dp_U_x_U7XhEb31Q6P1W">GSX1000</a>です。<br>
+FPSをやるときにはこのアンプを使いたい。<br>
+この思いつきこそが諸悪の根源です。</p>
+<hr>
+<p>前述した環境では「通話音声を一度インターフェイスで受け ハードワイヤでミキサに送る」という事を行っています。</p>
+<p>ですが、このアンプはPCとのやり取りはUSBのみです。 <br>
+一度外部で受けた音を取り込むことはできません。そりゃそうですよね。そのためのミキサなんですし。</p>
+<p>では次にもう1つ考えた方法。アンプからミキサに音声を送ってはどうでしょうか。<br>
+こちらも却下です。なぜなら、ミキサからPCへ入ってほしいのは「自分の声を含む通話音声」です。<br>
+ハードワイヤでミキサに繋いでしまえば、そこにゲーム音も混ざってしまいます。<br>
+根本的にやりたい事からズレてしまいます。</p>
+<hr>
+<p>さて、詰んでいしまいました。どうしましょう。</p>
+<p>ここで目を付けたのが<a href="https://www.amazon.co.jp/dp/B01LDTP46G/ref=cm_sw_r_tw_dp_U_x_8hJmEbT3JT8BG">GSX1200</a>に搭載されている <strong>&ldquo;デイジーチェーン&rdquo;</strong> という機能です。</p>
+<p>少しだけデイジーチェーンの解説を。<br>
+チームを組んでゲームをする際 通話をする事が多々ありますよね。特に勝ちいく場合はお互いの報告は非常に重要です。<br>
+でもネットを介すとラグが発生したり 突然の不具合で通話が聞こえないなんて事もあり得ますよね。<br>
+そういったもの解消するために「ならハードで繋げばええやん」ってハードワイヤで繋げるのがデイジーチェーンです。<br>
+なので必然的に横に並んでゲームをする環境が必須になります（ゲーミングシェアハウスとか？）</p>
+<p>これがデイジーチェーンの”本来の”使い方です。正直プロの環境ですら使う事は稀ではないかと（GSX1000と1200の違いはこの機能の有無程度なので 大多数の人が1000を購入します。)</p>
+<hr>
+<p>つまり要するにハードワイヤで音声を飛ばせるんでしょ？</p>
+<p>そう、この <del>誰得機能</del> 便利機能が僕の役に立つんです。ありがとうございます。<br>
+図解しますね。</p>
+<p><img src="/images/Hard/AudioMix/GamingAmp.png" alt="Gmaingamp"></p>
+<p>図がぐちゃぐちゃしてきました&hellip;.<br>
+USB入力とハードワイヤ入力の両方を受け付けて出力してくれるオーディオアンプなんて他にないと思います（あったら教えて下さい）</p>
+<h2 id="heading-3">実際に使用して</h2>
+<p>ShadowPlayでインスタントリプレイを残し 後から編集で声有り/無しを変えれるのは本当に便利です。<br>
+音量調整もミキサのつまみをいじれば出来るのは便利です。視覚的に物理的にできるのは良いですね。</p>
+<p>ちなみに、ですが。</p>
+<h1 id="usbif">USBミキサやオーディオIFにヘッドホンを繋いだほうが圧倒的に音質が良いです。</h1>
+<p>なので今はFPSする時だけゲーミングアンプに切り替え、普段はミキサに繋いで使用しています。<br>
+そして、もう1つ、大事な話が。</p>
+<h1 id="voicemeeter-banana">Voicemeeter Bananaというソフトを使用すれば無料でソフトウェア上でできます。</h1>
+<p>ShadowPlayで録画される音声のトラック分けというのは追加機材も必要なく無料でできます。<br>
+じゃぁなんでわざわざ数万円使ってまで環境作ったんですか？</p>
+<p>ロマンですよ。</p>
+<p>というのも当然ありますが、ソフトウェアよりもハードウェアの方が信憑性が非常に高いんですよね。<br>
+音というのはシビアなもので、Bananaは非常に優秀なソフトなのですが それでも場合によっては不具合が出ることがあります。<br>
+あと音機材を触りたいとは以前から考えていたので、いい機会ということで。</p>
+<h2 id="heading-4">おわりに</h2>
+<p>という事で これが僕が組みました音環境です。<br>
+入出力両方の音質を上げたい、けどゲーミングアンプは使いたいという無茶振りを完遂することができました。<br>
+これを音楽を嗜んでいる友人に相談していると何度も「ゲーミングアンプいらなくね？？」って言われました。<br>
+僕もそう思います。</p>
+<p>本記事は誰かにやってもらうという事は想定していません。物好きのための記事です。<br>
+なのでつらつらと長ったるい文章になりました。読み疲れたでしょう。<br>
+読んでいただきありがとうございます。<br>
+メインとなるはずの機材の話がめちゃくちゃ短くなったからかさ増ししたのは内緒です。</p>
+<p>Bananaで同じ環境を組む解説記事は需要あるでしょうか？もしあれば解説記事として簡潔に書きたいですね。</p>
+<p>以上、いにわでした。</p>
+</div>
+
+  <footer class="article-footer">
+
+    <aside class="share">
+  <a href="https://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&title=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&text=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&t=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://getpocket.com/edit?url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f&title=%e9%9f%b3%e7%92%b0%e5%a2%83%e3%82%92%e5%bc%b7%e5%8c%96%e3%81%97%e3%81%9f%e8%a9%b1" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fab fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2finiwach.netlify.com%2fhard%2faudiomix%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"><i class="fab fa-line" aria-hidden="true"></i></a>
+</aside>
+
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="https://iniwach.netlify.com"><i class="fas fa-home" aria-hidden="true"></i>TOP</a></li>
+            
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://iniwach.netlify.comhard/" itemprop="url"><span itemprop="title">HARD</span></a></li>
+            
+            <li class="active">音環境を強化した話</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="https://iniwach.netlify.comcategories/">CATEGORIES</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="https://iniwach.netlify.comcategories/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2/">ハードウェア</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="https://iniwach.netlify.comtags/">TAGS</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="https://iniwach.netlify.comtags/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AAif/">オーディオIF</a></li>
+          
+          <li><a href="https://iniwach.netlify.comtags/%E3%83%9F%E3%82%AD%E3%82%B5%E3%83%BC/">ミキサー</a></li>
+          
+          <li><a href="https://iniwach.netlify.comtags/%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%B3%E3%83%97/">ゲーミングアンプ</a></li>
+          
+          <li><a href="https://iniwach.netlify.comtags/shadowplay/">ShadowPlay</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    <div class="adj">
+      <div class="mrow">
+        
+        
+      </div>
+    </div>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "iniwanoting" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+  <div class="mcol c4">
+    <aside class="l-sidebar">
+
+  <div class="sections sidebar">
+    
+<section class="sidebar">
+  <header>AUTHOR</header>
+  <div>
+    <div class="author">
+      
+      <div class="author-thumb" style="background-image: url(https://iniwach.netlify.com/images/author.jpg);"></div>
+      
+      <div class="author-name">iniwa</div>
+      <ul class="author-facts">
+        
+        <li><a href="https://twitter.com/iniwach" rel="nofollow" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+        
+      </ul>
+      <div class="author-description"><p>ゲームとパソコンが趣味な人です。</p></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sidebar">
+  <header>LATESTS</header>
+  <div>
+    <div class="articles sm">
+      
+      <article class="lism">
+  <a href="https://iniwach.netlify.com/post/youtubestart/">
+    <div class="thumb thumb-48b3291ec1ca2bb13d4673708bc4395c"></div>
+
+    <div class="inner">
+      <div class="title">動画投稿をはじめます</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="28007-01-28T00:05:01JST">Jan 28, 2020</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://iniwach.netlify.com/hard/audiomix/">
+    <div class="thumb thumb-0f46526122bdf6289ed07750a9f45590"></div>
+
+    <div class="inner">
+      <div class="title">音環境を強化した話</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="14007-01-14T22:15:18JST">Jan 14, 2020</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>HARD</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://iniwach.netlify.com/vr/ovrtoolkit/">
+    <div class="thumb thumb-478fefd372f9381ef5219dfde31af0de"></div>
+
+    <div class="inner">
+      <div class="title">OVRtoolkitが便利</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="21007-12-21T16:31:30JST">Dec 21, 2019</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>VR</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://iniwach.netlify.com/profile/">
+    <div class="thumb thumb-888de97e1031394c8588e99eb2598471"></div>
+
+    <div class="inner">
+      <div class="title">いにわの庭</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="4007-12-04T13:33:22JST">Dec 4, 2019</time></li>
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+    </div>
+  </div>
+</section>
+
+    
+<section class="sidebar">
+  <header>CATEGORIES</header>
+  <div>
+    <ul class="terms">
+      <li><a href="https://iniwach.netlify.comcategories/%E7%8B%AC%E3%82%8A%E8%A8%80">独り言 <span class="count">(2)</span></a></li><li><a href="https://iniwach.netlify.comcategories/vr">vr <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comcategories/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2">ハードウェア <span class="count">(1)</span></a></li>
+    </ul>
+  </div>
+</section>
+
+
+
+    
+<section class="sidebar">
+  <header>TAGS</header>
+  <div>
+    <ul class="terms">
+      <li><a href="https://iniwach.netlify.comtags/ovrtoolkit">ovrtoolkit <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/shadowplay">shadowplay <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/youtube">youtube <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AAif">オーディオif <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%B3%E3%83%97">ゲーミングアンプ <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2">ソフトウェア <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%83%9F%E3%82%AD%E3%82%B5%E3%83%BC">ミキサー <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E4%BE%BF%E5%88%A9">便利 <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E5%8B%95%E7%94%BB%E6%8A%95%E7%A8%BF">動画投稿 <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B">自己紹介 <span class="count">(1)</span></a></li>
+    </ul>
+  </div>
+</section>
+
+
+
+  </div>
+
+</aside>
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p><span class="h-logo">&copy; いにわの庭</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

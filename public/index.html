@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="theme-color" content="#263238">
 
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.61.0" />
 
 <link rel="apple-touch-icon" href="https://iniwach.netlify.comimages/logo.png">
 
@@ -729,6 +729,12 @@ section.footer > header a {
 
 
 
+.thumb-0f46526122bdf6289ed07750a9f45590 {
+  background-image: url(https://iniwach.netlify.com/images/post/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B.jpg);
+}
+
+
+
 .thumb-478fefd372f9381ef5219dfde31af0de {
   background-image: url(https://iniwach.netlify.com/images/VR/OVRToolkit/OVRToolKit.png);
 }
@@ -817,6 +823,66 @@ Vtuberが爆発的に増えだした頃にもやろうと思ったんですが�
  意気込みを少しだけお話しましたが、2月は仕事で出張の連続のため全く進みません。
 でも、それでも今日この日に宣言して少しでも前に進めておかないと一生何もしないと思ったので記事を書きました。
 今年の抱負は「頑張らないよう頑張る」です。</div>
+    </div>
+  </a>
+</article>
+</div>
+        
+        <div class="mcol c6"><article class="li">
+  <a href="https://iniwach.netlify.com/hard/audiomix/">
+    <div class="thumb thumb-0f46526122bdf6289ed07750a9f45590"></div>
+
+    <div class="inner">
+      <h2 class="title">音環境を強化した話</h2>
+
+      <ul class="facts">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2020-01-14T22:15:18JST">Jan 14, 2020</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>HARD</li>
+        
+      </ul>
+
+      <div class="summary">最初にまずは何をできるようにしたのかを簡潔に。
+ShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。
+これだけです。
+これだけなのですが 我ながら面白い環境になったので 記述して残しておこうかなと。
+同じような環境を組みたいと思う物好きがいたら嬉しいなぁ。
+はじめに これから私の組んだ環境を説明するのですが、その前に何をしたいのかを説明しないといけません。
+今更ですが、音の記事を求めて来た方はブラウザバックを推奨します。
+こちらはゲーマー向け（とも言い切れませんが）記事です。
+ShadowPlayをもっと便利に使いたい ゲーマーな皆さんは既に使ってますよね。ShadowPlayという便利ソフトがあります。
+知らなかった方はこちらからダウンロードできますので是非とも。非常に便利なソフトです。
+ このShdowPlayを使用すれば ”直前数分間を保存” という事ができます。
+友達と一緒にゲームしてる際 面白いシーンは唐突に来ますよね。
+そういうベストシーンを巻き戻して保存できるんです。
+ ですが、この”巻き戻し機能”はまだ今回の本題ではありません。
+本記事の本題は、 &ldquo;音声を複数トラックで保存” できる事にあります。
+こちらの設定を「両方のトラックを分離する」にすると ゲームの音声とマイクからの入力が別のトラックで保存されます。
+こちらの機能により、動画編集ソフトを使えば ゲーム音とマイクの音声を別々に調整することができます。 画像の例で言うと オーディオ1にメイン音声、オーディオ2にマイク音声が入ります。
+文面で説明するのは難しいので画像からなんとなく察してください&hellip;.
+ この機能をもっと便利に使うのが本題なのですが、その前に。
+まずはどこの音が録音されているのかを知ってもらいます。
+ここがネックです。
+メインの音声には 「既定のデバイス」 で再生されている音声が
+マイクの方は設定画面がありますね。
+簡単な話だと思いますよね。なぜここがネックになるのでしょうか。
+まずは一般的な方の環境ではどうなるのかを見てみましょう。
+この通り通話相手の声は絶対に入ってしまいます。
+では次に デバイスの機能で通話音声とゲーム音声を個別で音量調整できる事がありますよね。具体的にはSteelseriesのArctisシリーズ や SennheiserのGSX1000等ができます。
+そういうデバイスを持っている方はどうなるのか。
+そもそもどうやって個別に音量調整を可能にしているのか。
+「既定のデバイス」はWindows側で設定します。
+そして「既定の通信デバイス」というものも設定できます。
+このデバイスが2つある事を利用して個別に音量調整しているんです。
+実際のヘッドホンは1つしかないのですが、Windowsはヘッドホンが2つあると認識しているんです。
+では、この環境では音声がどう保存されるのか。
+今度は通話相手の声が入らなくなりました。
+不便ですよね。通話相手と自分の声を一緒にまとめてオンオフできたらいいのにって思いませんか？
+それがね、できるんですよ。
+通話位相手の声と自分の声を1つのデバイスに出力する ここの小タイトルはどうしたらわかりやすくなるんだ。
+ここまでの情報の整理とおさらいです。
+ ShadowPlayは優秀な録画ソフト 音声トラックを分けて保存できる 保存される音声は「既定のデバイス」と「マイク入力」  そして やりたい事は「通話と自分の声を同時にオンオフする」です。
+どうすればできるのか。小タイトルに書いてますね。
+通話と自分の声を混ぜた音声をマイク入力に入れてあげれば良いんです。</div>
     </div>
   </a>
 </article>
@@ -961,6 +1027,24 @@ Data M.2 SSD : Samsung SSD 1TB 970 EVO M.</div>
 
       
       <article class="lism">
+  <a href="https://iniwach.netlify.com/hard/audiomix/">
+    <div class="thumb thumb-0f46526122bdf6289ed07750a9f45590"></div>
+
+    <div class="inner">
+      <div class="title">音環境を強化した話</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="14007-01-14T22:15:18JST">Jan 14, 2020</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>HARD</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
   <a href="https://iniwach.netlify.com/vr/ovrtoolkit/">
     <div class="thumb thumb-478fefd372f9381ef5219dfde31af0de"></div>
 
@@ -1005,7 +1089,7 @@ Data M.2 SSD : Samsung SSD 1TB 970 EVO M.</div>
   <header>CATEGORIES</header>
   <div>
     <ul class="terms">
-      <li><a href="https://iniwach.netlify.comcategories/%E7%8B%AC%E3%82%8A%E8%A8%80">独り言 <span class="count">(2)</span></a></li><li><a href="https://iniwach.netlify.comcategories/vr">vr <span class="count">(1)</span></a></li>
+      <li><a href="https://iniwach.netlify.comcategories/%E7%8B%AC%E3%82%8A%E8%A8%80">独り言 <span class="count">(2)</span></a></li><li><a href="https://iniwach.netlify.comcategories/vr">vr <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comcategories/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2">ハードウェア <span class="count">(1)</span></a></li>
     </ul>
   </div>
 </section>
@@ -1017,7 +1101,7 @@ Data M.2 SSD : Samsung SSD 1TB 970 EVO M.</div>
   <header>TAGS</header>
   <div>
     <ul class="terms">
-      <li><a href="https://iniwach.netlify.comtags/ovrtoolkit">ovrtoolkit <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/youtube">youtube <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2">ソフトウェア <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E4%BE%BF%E5%88%A9">便利 <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E5%8B%95%E7%94%BB%E6%8A%95%E7%A8%BF">動画投稿 <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B">自己紹介 <span class="count">(1)</span></a></li>
+      <li><a href="https://iniwach.netlify.comtags/ovrtoolkit">ovrtoolkit <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/shadowplay">shadowplay <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/youtube">youtube <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AAif">オーディオif <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%B3%E3%83%97">ゲーミングアンプ <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2">ソフトウェア <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E3%83%9F%E3%82%AD%E3%82%B5%E3%83%BC">ミキサー <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E4%BE%BF%E5%88%A9">便利 <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E5%8B%95%E7%94%BB%E6%8A%95%E7%A8%BF">動画投稿 <span class="count">(1)</span></a></li><li><a href="https://iniwach.netlify.comtags/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B">自己紹介 <span class="count">(1)</span></a></li>
     </ul>
   </div>
 </section>
