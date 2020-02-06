@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: いにわの庭
 date: 2019-12-04T13:33:22.000Z
@@ -83,4 +81,3 @@ Headphone : [TAGO-STUDIO T03-01](https://www.e-earphone.jp/tago-studio/takasaki-
 
 アイコンと上部バナー画像の絵はふぅすさんに描いて頂きました。  
 [ふぅすさんのTwitter](https://twitter.com/Hu_Shimaster)
->>>>>>> parent of ee0f371... ProgHandle
