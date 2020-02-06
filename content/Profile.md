@@ -66,6 +66,8 @@ Keybord : [東プレ REALFORCE A R2](https://www.amazon.co.jp/gp/product/B077Q45
 Mousepad : [ARTISAN FX シデンカイ サイズM 中間層MID](https://www.artisan-jp.com/fx-shidenkai.html)  
 VR HMD : [Valve Index](https://store.steampowered.com/valveindex)  
 Controller : [SCUF VANTAGE 2 MODERN WARFARE](https://gaming.sazabies.com/products/detail/307)  
+Handle Controller : [Thrustmaster T300RS+T3PA-Pro+TH8A](https://www.amazon.co.jp/gp/product/B01FLX9HEK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+Handle Controller Stand : [Playseat Challenge](https://www.amazon.co.jp/gp/product/B072JGPS4Q/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 
 # Audio  
 USB Mixer : [YAMAHA AG06](https://www.amazon.co.jp/gp/product/B00ST0FK12/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)  
