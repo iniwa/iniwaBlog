@@ -61,15 +61,24 @@ Data HDD : [Western Digital WD Blue 4TB](https://www.amazon.co.jp/gp/product/B07
 
 ### 使用デバイス
 
+<<<<<<< HEAD
 Monitor1 : [LG 34GK950F-B](https://www.amazon.co.jp/dp/B07NWR2X9X/ref=cm_sw_r_tw_dp_U_x_TX4oEb3TY03NK)  
+=======
+Monitor1 : [LG 34GK950F-B](https://www.amazon.co.jp/dp/B07NWR2X9X/ref=cm_sw_r_tw_dp_U_x_TX4oEb3TY03NK)
+>>>>>>> origin/master
 Monitor2,3 : [MSI Optix MAG271CQR](https://www.amazon.co.jp/gp/product/B07KXW614S/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=a97f9f6b2018a853f0e14397e0ccc8c6&language=ja_JP)  
 Mouse : [BenQ ZOWIE EC2-B](https://www.amazon.co.jp/gp/product/B077PC2WQQ/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=63cd0f80b15b1225813c1a20b93df004&language=ja_JP)  
 Keybord : [東プレ REALFORCE A R2](https://www.amazon.co.jp/gp/product/B077Q451L9/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=f6c42a3e0d6d3b3abc750035f64bce4e&language=ja_JP)  
 Mousepad : [ARTISAN FX シデンカイ サイズM 中間層MID](https://www.artisan-jp.com/fx-shidenkai.html)  
 VR HMD : [Valve Index](https://store.steampowered.com/valveindex)  
 Controller : [SCUF VANTAGE 2 MODERN WARFARE](https://gaming.sazabies.com/products/detail/307)  
+<<<<<<< HEAD
 Handle Controller : [Thrustmaster T300RS+T3PA-Pro+TH8A](https://www.amazon.co.jp/gp/product/B01FLX9HEK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)  
 Handle Controller Stand : [Playseat Challenge](https://www.amazon.co.jp/gp/product/B072JGPS4Q/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)  
+=======
+Handle Controller : [Thrustmaster T300RS+T3PA-Pro+TH8A](https://www.amazon.co.jp/gp/product/B01FLX9HEK/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+Handle Controller Stand : [Playseat Challenge](https://www.amazon.co.jp/gp/product/B072JGPS4Q/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+>>>>>>> origin/master
 
 # Audio  
 USB Mixer : [YAMAHA AG06](https://www.amazon.co.jp/gp/product/B00ST0FK12/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)  
