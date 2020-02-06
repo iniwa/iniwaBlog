@@ -47,8 +47,8 @@ Data HDD : [Western Digital WD Blue 4TB](https://www.amazon.co.jp/gp/product/B07
 
 ### 使用デバイス
 
-Monitor1,2 : [MSI Optix MAG271CQR](https://www.amazon.co.jp/gp/product/B07KXW614S/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=a97f9f6b2018a853f0e14397e0ccc8c6&language=ja_JP)  
-Monitor3 : [Acer KG251QFbmidpx](https://www.amazon.co.jp/gp/product/B0756CV1CG/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=b369874668dcba99e7fc65392d386cef&language=ja_JP)  
+Monitor1 : [LG 34GK950F-B](https://www.amazon.co.jp/dp/B07NWR2X9X/ref=cm_sw_r_tw_dp_U_x_TX4oEb3TY03NK)
+Monitor2,3 : [MSI Optix MAG271CQR](https://www.amazon.co.jp/gp/product/B07KXW614S/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=a97f9f6b2018a853f0e14397e0ccc8c6&language=ja_JP)  
 Mouse : [BenQ ZOWIE EC2-B](https://www.amazon.co.jp/gp/product/B077PC2WQQ/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=63cd0f80b15b1225813c1a20b93df004&language=ja_JP)  
 Keybord : [東プレ REALFORCE A R2](https://www.amazon.co.jp/gp/product/B077Q451L9/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=f6c42a3e0d6d3b3abc750035f64bce4e&language=ja_JP)  
 Mousepad : [ARTISAN FX シデンカイ サイズM 中間層MID](https://www.artisan-jp.com/fx-shidenkai.html)  
