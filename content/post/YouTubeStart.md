@@ -1,7 +1,7 @@
 ---
 title: "動画投稿をはじめます"
 date: 2020-01-28T00:05:01+09:00
-draft: false
+draft: true
 thumbnail: images/post/自己紹介.jpg
 categories:
   - 独り言
