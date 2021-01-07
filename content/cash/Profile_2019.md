@@ -1,7 +1,7 @@
 ---
 title: いにわの庭
 date: 2019-12-04T13:33:22.000Z
-draft: false
+draft: true
 thumbnail: images/post/自己紹介.jpg
 tags:
   - 自己紹介
