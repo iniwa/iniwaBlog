@@ -1,5 +1,5 @@
 ---
-title: "音環境を強化した話"
+title: "Radeon SoftwareとShadowPlayの比較"
 date: 2021-01-07T21:35:18+09:00
 draft: true
 thumbnail: images/post/自己紹介.jpg
@@ -51,6 +51,12 @@ GeForce Experienceにも「低遅延モード」というものがあります�
 
 
 ## 悪い所  
+
+### SteamVRの動作が不安定  
+ValveIndexを使用してVRをプレイしていた所、数秒毎に画面がプチフリを起こすといった不具合がありました。  
+これはVRではかなりのストレスで、見過ごせない問題です。  
+
+Radeonはソフトウェアが不安定とはよく言われますし、今後の改善に期待です。  
 
 
 ### ReLiveで保存した時、フォルダ分けされない  

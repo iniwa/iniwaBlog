@@ -62,7 +62,7 @@ M/B : [Asrock X570 PGX](https://www.amazon.co.jp/gp/product/B07THYPNC9/ref=as_li
 RAM : [G.skill Trident Z NEO 3600Mhz CL16 16GB*4](https://www.ark-pc.co.jp/i/11737331/)  
 GPU : [SAPPHIRE Radeon RX6900 XT](https://kakaku.com/item/K0001318763/?lid=shop_history_2_text)  
 CPU Cooler : [Corsair H150i PRO RGB](https://www.amazon.co.jp/gp/product/B077FZPCRH/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=5d37f3e4b46f1ecd997081eff8214580&language=ja_JP)  
-Power Unit : [Corsair HX1200i Platinum]
+Power Unit : [Corsair HX1200i Platinum]  
 OS SSD : [CFD M.2 NVme SSD PCIe Gen4 500GB CSSD-M2B5GPG3VNF](https://www.amazon.co.jp/gp/product/B07X9Y917M/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=bbc936646b05c74e2d7e3c5cf04174cd&language=ja_JP)  
 Data M.2 SSD : [Samsung SSD 1TB 970 EVO M.2](https://www.amazon.co.jp/gp/product/B07CKQ3RCH/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=8ec12cae5df120bf647fb46bca74a07f&language=ja_JP)  
 Data SATA3 SSD : [Samsung SSD 4TB 860QVO](https://www.amazon.co.jp/gp/product/B07MQY95M7/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=0f371e8b14b6c4f87eb537a94dbca382&language=ja_JP)  
