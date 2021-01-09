@@ -11,7 +11,7 @@ tags:
 ---
 
 Radeon RX6900XTを購入したので、簡易的ですが使用感を記述していきます。  
-RTX 2080tiからの換装になります。
+RTX 2080tiから換装しました。
 
 __ベンチマーク等を使用したレビューではありません。__  
 GeForce ExperienceとRadeon Softwareの比較が主になるかと思われます。  
