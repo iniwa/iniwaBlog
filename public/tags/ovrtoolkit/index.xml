@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OVRToolkit on いにわの庭</title>
+    <link>https://iniwach.netlify.com/tags/ovrtoolkit/</link>
+    <description>Recent content in OVRToolkit on いにわの庭</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 21 Dec 2019 16:31:30 +0900</lastBuildDate><atom:link href="https://iniwach.netlify.com/tags/ovrtoolkit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OVRtoolkitが便利</title>
+      <link>https://iniwach.netlify.com/vr/ovrtoolkit/</link>
+      <pubDate>Sat, 21 Dec 2019 16:31:30 +0900</pubDate>
+      
+      <guid>https://iniwach.netlify.com/vr/ovrtoolkit/</guid>
+      <description>後出のソフト”XSOerlay&amp;ldquo;を使用することを強く推奨します。 本記事はまだ製作途中ですが更新は停止です。。 上記の通り、XSOverlayを推奨します。
+そちらの記事も作成予定ですが、予定は未定です。。
+Steamストアページの方に実際に使用されている動画があるので 一度ご確認ください。
+ はじめに 今回はSteamVRで便利なソフト「OVR Toolkit」を紹介します。
+何ができるソフトなのか このソフトはVR内でデスクトップを表示、操作を行うことができます。
+ブラウジングなど 簡単な事なら難なくこなせます。
+導入手順 こちらのSteamストアページから購入できます。
+インストールと起動までは他のSteamゲーム等と同じです。
+SteamVR起動時に同時起動について SteamVRの設定でVR起動時に同時起動ができるのですが、僕の環境では動作が不安定なのでおすすめしません。
+具体的には ホームメニューが表示されません（トラッカー等に吸われてる？）
+コントローラ、トラッカー等を全て起動した後に本ソフトを起動することを推奨します。
+VR内での設定 メニューの出し方 OVRTookKitを起動すると デスクトップの方に下記画像のようなウィンドウが表示されています。
+ValveIndexではこのように表示されていると思います。
+この画像に「両方のグリップボタンを同時に2回押します」と書いています。
+ちなみに、Indexでのグリップボタンとはコントローラをぎゅっと握ることです。
+それぞれのコントローラで操作方法が異なると思うので 各自で確認してください。
+それでは、実際にVR内での設定を紹介していきます。
+手首オーバーレイ 本ソフトを起動すると 手首に下画像のようなUIが出てきます。
+現在時刻、VR起動時間、バッテリー残量が見れる優秀なUIです。
+メインメニュー VR内でメニューを出すと一番最初に出てくる画面です。
+下部メニューから各設定やキーボードを開けます。
+中央下部の「新しいウィンドウを作成する」から新規ウィンドウを開けます。
+新規ウィンドウを開くと 新規ウィンドウを開くと 近くにウィンドウがドロップします。
+こちらはグリップ長押しで 掴んで移動させる事ができます。
+全体設定 メニュー下部の「全体設定」を押すと出てくる画面です。
+  手首のオーバーレイを有効にする   上で記した 手首に表示されるUIの表示 非表示を切り替えます。
+邪魔な場合はオフにしましょう。
+  CPUおよびRAM情報を表示   手首のオーバーレイにCPU.RAM.GPUの使用率を追加します。
+使用率が気になる場合はオンにしましょう。
+  オーバーレイハンドの切り替え   手首オーバーレイの表示される手が切り替わります。
+  タッチスクリーン入力を使用する   要検証</description>
+    </item>
+    
+  </channel>
+</rss>
