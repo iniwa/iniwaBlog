@@ -1,5 +1,5 @@
 ---
-title: "音環境を強化した話"
+title: "Radeon SoftwareとShadowPlayの比較"
 date: 2021-01-07T21:35:18+09:00
 draft: true
 thumbnail: images/post/自己紹介.jpg
@@ -26,7 +26,7 @@ Radeon RX6900 XTはSAMをONにしています。
 CPU : Ryzen9 5950X  
 RAM : G.Skill TridentZ neo 3600Mhz 16GB*4  
 M/B : Asrock X570 PhantomGameing X  
-他の環境につきましては[Profile](({{< ref "Profile.md" >}}) )を御覧ください。  
+他の環境につきましては[Profile](../../profile)を御覧ください。  
 
 
 
@@ -52,6 +52,12 @@ GeForce Experienceにも「低遅延モード」というものがあります�
 
 ## 悪い所  
 
+### SteamVRの動作が不安定  
+ValveIndexを使用してVRをプレイしていた所、数秒毎に画面がプチフリを起こすといった不具合がありました。  
+これはVRではかなりのストレスで、見過ごせない問題です。  
+
+Radeonはソフトウェアが不安定とはよく言われますし、今後の改善に期待です。  
+
 
 ### ReLiveで保存した時、フォルダ分けされない  
 ShadowPlayでは保存時にプレイ中のゲーム名称でフォルダが生成され、その中に動画ファイルが保存されていきます。  
@@ -63,10 +69,6 @@ ShadowPlayでは保存時にプレイ中のゲーム名称でフォルダが生�
 
 ### ReLiveの「音声の別トラックで保存」について  
 かなりマイナーなデメリットに感じますが、記述しておきます。  
-
-ShadowPlayのインスタントリプレイ、RadeonSoftwareのReLiveの両方ともが  
-「現在から直前の数分間の画面を録画する」という機能になります。  
-常用してる方は多い機能ではないでしょうか。  
 
 こちらの機能、両者とも「音声トラックの分割」という設定項目があります。  
 こちらを平たく説明すると、ゲーム音声とマイク音声を別の音声として保存することができます。(詳細は各自調べていただけると助かります)  
@@ -84,3 +86,9 @@ ReLiveでは、「1つの動画ファイルと1つの音声ファイル」とい
 ## 記事内で出た機能について少し解説  
 
 ### ReLiveについて  
+ShadowPlayに搭載されている「インスタントリプレイ」と同様の機能となります。  
+ShadowPlayはNvidia製GPU専用ソフトなので、当然Radeonでは使えません。
+Radeon専用ソフトのRadeon Softwareの中に「ReLive」という機能がございます。  
+
+ShadowPlayのインスタントリプレイ、RadeonSoftwareのReLiveの両方ともが  
+「現在から直前の数分間の画面を録画する」という機能になります。  
