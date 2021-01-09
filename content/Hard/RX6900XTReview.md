@@ -20,7 +20,7 @@ GeForce ExperienceとRadeon Softwareの比較が主になるかと思われま�
 購入GPU[SAPPHIRE Radeon RX6900 XT](https://kakaku.com/item/K0001318763/?lid=shop_history_2_text)  
 前GPU[Zotac RTX 2080ti AMP Edition](https://www.amazon.co.jp/gp/product/B07GRYKSXT/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=e3f1a103167de4a62fd85d0328cb4323&language=ja_JP)  
 
-RadeonはSAMをONにしています。
+Radeon RX6900 XTはSAMをONにしています。
 
 他のパーツ  
 CPU : Ryzen9 5950X  
