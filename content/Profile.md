@@ -16,7 +16,7 @@ categories:
 
 
 去年はなんだかんだ言った気はしますが、結局何もしませんでしたね。  
-サラリーマンしながら何かしらの活動してる人達は本当にすごいと思います。  
+サラリーマンしながら活動してる人達は本当にすごいと思います。  
 僕なんか仕事して帰ったら楽しいゲーム以外したくないですもん。  
 
 
@@ -28,14 +28,14 @@ categories:
 
 
 次に、コミュニケーション能力が欲しいですね。  
-VRChat始めたあたりはコミュ力かなりあったと思うんですけどね。  
+VRChat始めたあたりはコミュ力ある方だと思ってたんですけど、最近てんでダメでして。  
 今はなんだかとても情けないと言うか、頼りないと言うか。  
 去年の末あたりから少し意識し始めたのですが、まぁ見えて変わるわけは無いので。  
 その一環としてTwitterももうちょっと触ろうかなとか。  
 
 
 最後の目標は喋り方です。  
-インスタントリプレイとかで撮った動画を見てると、自分の声が入ってるじゃないですか。  
+インスタントリプレイで撮った動画から自分の声を聞くんですけど、  
 毎回自分の息の吸う音がすごい気になるんですよね。  
 癖なんですけど、あまり心地良くなくてTwitterに動画上げるときとかこっそり消してたりします。  
 これ治したいんですけど、自分がそういう事してても全然気づかないんですよね。難しい。  
@@ -62,7 +62,7 @@ M/B : [Asrock X570 PGX](https://www.amazon.co.jp/gp/product/B07THYPNC9/ref=as_li
 RAM : [G.skill Trident Z NEO 3600Mhz CL16 16GB*4](https://www.ark-pc.co.jp/i/11737331/)  
 GPU : [SAPPHIRE Radeon RX6900 XT](https://kakaku.com/item/K0001318763/?lid=shop_history_2_text)  
 CPU Cooler : [Corsair H150i PRO RGB](https://www.amazon.co.jp/gp/product/B077FZPCRH/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=5d37f3e4b46f1ecd997081eff8214580&language=ja_JP)  
-Power Unit : [Corsair HX1200i Platinum]
+Power Unit : [Corsair HX1200i Platinum]  
 OS SSD : [CFD M.2 NVme SSD PCIe Gen4 500GB CSSD-M2B5GPG3VNF](https://www.amazon.co.jp/gp/product/B07X9Y917M/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=bbc936646b05c74e2d7e3c5cf04174cd&language=ja_JP)  
 Data M.2 SSD : [Samsung SSD 1TB 970 EVO M.2](https://www.amazon.co.jp/gp/product/B07CKQ3RCH/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=8ec12cae5df120bf647fb46bca74a07f&language=ja_JP)  
 Data SATA3 SSD : [Samsung SSD 4TB 860QVO](https://www.amazon.co.jp/gp/product/B07MQY95M7/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=0f371e8b14b6c4f87eb537a94dbca382&language=ja_JP)  
