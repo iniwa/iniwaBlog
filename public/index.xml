@@ -2,44 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>いにわの庭</title>
-    <link>https://iniwach.netlify.com/</link>
+    <link>https://iniwach.netlify.app/</link>
     <description>Recent content on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 Jan 2021 13:33:22 +0000</lastBuildDate><atom:link href="https://iniwach.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 13:33:22 +0000</lastBuildDate><atom:link href="https://iniwach.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>いにわの庭</title>
-      <link>https://iniwach.netlify.com/profile/</link>
+      <link>https://iniwach.netlify.app/profile/</link>
       <pubDate>Thu, 07 Jan 2021 13:33:22 +0000</pubDate>
       
-      <guid>https://iniwach.netlify.com/profile/</guid>
+      <guid>https://iniwach.netlify.app/profile/</guid>
       <description>自己紹介 いにわです。
 パソコンとゲームが好きです。
-興味のある事 興味のある事は今めちゃくちゃ多いです。
-もとより多方面に好奇心があるタイプではあったのですが、VRChatを通して爆発的に増えてしまいました。
-軽くリストアップを。
- ゲーム全般 パソコンパーツ,周辺機器 動画編集 モデリング レンダリング アニメーション Unity VR/AR ドラム（楽器）
-etc&amp;hellip;  このサイトについて Hugoやマークダウン等への好奇心からこのブログを開設しました。 公開していますがだいたい自己満足です。期待はしない事を推奨します。
+去年はなんだかんだ言った気はしますが、結局何もしませんでしたね。
+サラリーマンしながら活動してる人達は本当にすごいと思います。
+僕なんか仕事して帰ったら楽しいゲーム以外したくないですもん。
+今年の抱負 まずは大きな目標として、 何かしら生産性を持ちたいです。
+モデリングでも、動画活動でも、もっと他のなにかでも。
+去年は言うだけで終わったのでね･･･今年は･････頑張れるかな･･･････。
+次に、コミュニケーション能力が欲しいですね。
+VRChat始めたあたりはコミュ力ある方だと思ってたんですけど、最近てんでダメでして。
+今はなんだかとても情けないと言うか、頼りないと言うか。
+去年の末あたりから少し意識し始めたのですが、まぁ見えて変わるわけは無いので。
+その一環としてTwitterももうちょっと触ろうかなとか。
+最後の目標は喋り方です。
+インスタントリプレイで撮った動画から自分の声を聞くんですけど、
+毎回自分の息の吸う音がすごい気になるんですよね。
+癖なんですけど、あまり心地良くなくてTwitterに動画上げるときとかこっそり消してたりします。
+これ治したいんですけど、自分がそういう事してても全然気づかないんですよね。難しい。
+落ち着いて喋りたい。
+このサイトについて Hugoやマークダウン等への好奇心からこのブログを開設しました。 公開していますがだいたい自己満足です。期待はしない事を推奨します。
 各リンク twitter
 YouTube
 Amazon欲しい物リスト
 VroidHUB
 Steamプロフィール
 使用PC OS : Windows 10 64bit Home
-CPU : Ryzen9 3950X
+CPU : Ryzen9 5950X
 M/B : Asrock X570 PGX
-RAM : G.skill Trident Z RGB 3200Mhz CL14 8GB*4
-GPU : Zotac RTX 2080ti AMP Edition
+RAM : G.skill Trident Z NEO 3600Mhz CL16 16GB*4
+GPU : SAPPHIRE Radeon RX6900 XT
 CPU Cooler : Corsair H150i PRO RGB
-OS SSD : CFD M.</description>
+Power Unit : [Corsair HX1200i Platinum]</description>
     </item>
     
     <item>
       <title>音環境を強化した話</title>
-      <link>https://iniwach.netlify.com/hard/audiomix/</link>
+      <link>https://iniwach.netlify.app/hard/audiomix/</link>
       <pubDate>Thu, 30 Jan 2020 21:35:18 +0900</pubDate>
       
-      <guid>https://iniwach.netlify.com/hard/audiomix/</guid>
+      <guid>https://iniwach.netlify.app/hard/audiomix/</guid>
       <description>最初にまずは何をできるようにしたのかを簡潔に。
 ShadowPlayでゲーム音声と通話(自分の声を含む)音声を別トラックで保存されるようにしました。
 これだけです。
@@ -86,10 +99,10 @@ ShadowPlayをもっと便利に使いたい ゲーマーな皆さんは既に使
     
     <item>
       <title>動画投稿をはじめます</title>
-      <link>https://iniwach.netlify.com/post/youtubestart/</link>
+      <link>https://iniwach.netlify.app/post/youtubestart/</link>
       <pubDate>Tue, 28 Jan 2020 00:05:01 +0900</pubDate>
       
-      <guid>https://iniwach.netlify.com/post/youtubestart/</guid>
+      <guid>https://iniwach.netlify.app/post/youtubestart/</guid>
       <description>この度動画投稿を始めることを宣言します! と言いつつ、まだ何も準備してないんですけどね。
  動画投稿したいなぁとはかなり前、VRCを始める以前から思ってたんですよね。
 実は一時期してた事があったり
@@ -110,6 +123,50 @@ Vtuberが爆発的に増えだした頃にもやろうと思ったんですが�
  意気込みを少しだけお話しましたが、2月は仕事で出張の連続のため全く進みません。
 でも、それでも今日この日に宣言して少しでも前に進めておかないと一生何もしないと思ったので記事を書きました。
 今年の抱負は「頑張らないよう頑張る」です。</description>
+    </item>
+    
+    <item>
+      <title>OVRtoolkitが便利</title>
+      <link>https://iniwach.netlify.app/vr/ovrtoolkit/</link>
+      <pubDate>Sat, 21 Dec 2019 16:31:30 +0900</pubDate>
+      
+      <guid>https://iniwach.netlify.app/vr/ovrtoolkit/</guid>
+      <description>後出のソフト”XSOerlay&amp;ldquo;を使用することを強く推奨します。 本記事はまだ製作途中ですが更新は停止です。。 上記の通り、XSOverlayを推奨します。
+そちらの記事も作成予定ですが、予定は未定です。。
+Steamストアページの方に実際に使用されている動画があるので 一度ご確認ください。
+ この記事を読んで頂く前に 2021-01-09更新
+上述の通り、XSOverlayを推奨します。
+あくまで個人的な使用感にはなりますが、そちらの方が使い勝手がよろしいかと思われます。（OVR Toolkitの製作者様、愛用している方々、ごめんなさい。）
+今だに「OVR ToolKit」からの検索で私のこのページへたどり着く方が多くいらっしゃいます。
+ですが、私自身が本ソフトの使用を辞めてしまっているため、大変申し訳ございませんがこの記事が今後更新されることはございません。
+そのため、下記の情報はかなり古いものになっている可能性が高いです。
+ページ自体の削除も検討しましたが(一時的にそうしたりもしましたが)、
+もしかしたら誰かの役にたつのであればと、このページは残しておくことにしました。
+勝手な都合で申し訳ござません。
+以上 2021-01-09更新
+ はじめに 今回はSteamVRで便利なソフト「OVR Toolkit」を紹介します。
+何ができるソフトなのか このソフトはVR内でデスクトップを表示、操作を行うことができます。
+ブラウジングなど 簡単な事なら難なくこなせます。
+導入手順 こちらのSteamストアページから購入できます。
+インストールと起動までは他のSteamゲーム等と同じです。
+SteamVR起動時に同時起動について SteamVRの設定でVR起動時に同時起動ができるのですが、僕の環境では動作が不安定なのでおすすめしません。
+具体的には ホームメニューが表示されません（トラッカー等に吸われてる？）
+コントローラ、トラッカー等を全て起動した後に本ソフトを起動することを推奨します。
+VR内での設定 メニューの出し方 OVRTookKitを起動すると デスクトップの方に下記画像のようなウィンドウが表示されています。
+ValveIndexではこのように表示されていると思います。
+この画像に「両方のグリップボタンを同時に2回押します」と書いています。
+ちなみに、Indexでのグリップボタンとはコントローラをぎゅっと握ることです。
+それぞれのコントローラで操作方法が異なると思うので 各自で確認してください。
+それでは、実際にVR内での設定を紹介していきます。
+手首オーバーレイ 本ソフトを起動すると 手首に下画像のようなUIが出てきます。
+現在時刻、VR起動時間、バッテリー残量が見れる優秀なUIです。
+メインメニュー VR内でメニューを出すと一番最初に出てくる画面です。
+下部メニューから各設定やキーボードを開けます。
+中央下部の「新しいウィンドウを作成する」から新規ウィンドウを開けます。
+新規ウィンドウを開くと 新規ウィンドウを開くと 近くにウィンドウがドロップします。
+こちらはグリップ長押しで 掴んで移動させる事ができます。
+全体設定 メニュー下部の「全体設定」を押すと出てくる画面です。
+  手首のオーバーレイを有効にする   上で記した 手首に表示されるUIの表示 非表示を切り替えます。</description>
     </item>
     
   </channel>

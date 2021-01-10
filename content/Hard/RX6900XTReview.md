@@ -20,7 +20,7 @@ GeForce ExperienceとRadeon Softwareの比較が主になるかと思われま�
 購入GPU[SAPPHIRE Radeon RX6900 XT](https://kakaku.com/item/K0001318763/?lid=shop_history_2_text)  
 前GPU[Zotac RTX 2080ti AMP Edition](https://www.amazon.co.jp/gp/product/B07GRYKSXT/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=iniwa-22&linkId=e3f1a103167de4a62fd85d0328cb4323&language=ja_JP)  
 
-RadeonはSAMをONにしています。
+RadeonのSAMですが、一部ゲームでの動作が不安定なようなのでOFFにしています。  
 
 他のパーツ  
 CPU : Ryzen9 5950X  
@@ -56,13 +56,22 @@ GeForce Experienceにも「低遅延モード」というものがあります�
 
 ## 悪い所  
 
+
+### SAMの動作が不安定  
+Radeonでは｢SAM｣という機能があり、パフォーマンスが数%上がると言われています。  
+ですが、一部ゲームでは動作が不安定になる模様です。  
+
+私の場合、VALORANTが100fps~300fpsという大幅な間隔をふらふらしてしまいます。  
+SAMをOFFにすると280~300で安定するので、おそらくSAMが原因ではないかと考えています。
+(fosは300で制限しています。)  
+
+
 ### SteamVRの動作が不安定  
 ValveIndexを使用してVRをプレイしていた所、数秒毎に画面がプチフリを起こすといった不具合がありました。  
 なのですが、SteamVR起動後しばらく(数分~十数分細)すると安定するように感じます。謎。  
 これはVRではかなりのストレスで、見過ごせない問題です。  
 
 Radeonはソフトウェアが不安定とはよく言われますし、今後の改善に期待です。  
-Radeon6000シリーズの新機能、SAMが悪さをしている可能性もあります。  
 
 
 ### ReLiveで保存した時、フォルダ分けされない  

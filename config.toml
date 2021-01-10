@@ -1,4 +1,4 @@
-baseURL = "https://iniwach.netlify.com"
+baseURL = "https://iniwach.netlify.app"
 languageCode = "ja"
 title = "いにわの庭"
 theme = "hugo_theme_robust"
