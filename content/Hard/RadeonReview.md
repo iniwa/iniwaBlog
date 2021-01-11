@@ -1,6 +1,6 @@
 ---
 title: "Radeonの使用感レビュー"
-date: 2021-01-11T14:35:18+09:00
+date: 2021-01-10T14:35:18+09:00
 draft: false
 thumbnail: images/post/自己紹介.jpg
 categories:
