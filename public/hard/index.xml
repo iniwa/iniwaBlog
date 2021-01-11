@@ -6,7 +6,50 @@
     <description>Recent content in Hards on いにわの庭</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Jan 2020 21:35:18 +0900</lastBuildDate><atom:link href="https://iniwach.netlify.app/hard/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jan 2021 14:35:18 +0900</lastBuildDate><atom:link href="https://iniwach.netlify.app/hard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Radeonの使用感レビュー</title>
+      <link>https://iniwach.netlify.app/hard/radeonreview/</link>
+      <pubDate>Mon, 11 Jan 2021 14:35:18 +0900</pubDate>
+      
+      <guid>https://iniwach.netlify.app/hard/radeonreview/</guid>
+      <description>Radeon RX6900XTを購入したので、簡易的ですが使用感を記述していきます。
+まだ使用し始めてからの日が浅いため、まだ対面していない問題があるかもしれません。
+それを踏まえた上で参考にしていただけると幸いです。
+最終更新 2021-01-11
+RTX 2080tiからの換装になります。
+ ベンチマーク等を使用したレビューではありません。
+GeForce ExperienceとRadeon Softwareの比較が主になるかと思われます。
+使用機材 購入GPUSAPPHIRE Radeon RX6900 XT
+前GPUZotac RTX 2080ti AMP Edition
+RadeonのSAMですが、一部ゲームでの動作が不安定になるのでOFFにしています。
+他のパーツ
+CPU : Ryzen9 5950X
+RAM : G.Skill TridentZ neo 3600Mhz 16GB*4
+M/B : Asrock X570 PhantomGameing X
+他の環境につきましてはProfileを御覧ください。
+はじめに 単刀直入に言いますが、
+Nvidia製GPUじゃないとできない事、
+それと同時にAMD製GPUじゃないとできない事、
+それらに一般ゲーマーさんが使ってて気になるような事案はありません。
+もし悩まれてる方がいるなら、直感で選んでいただいて大丈夫です。
+そもそも悩んでる時点でどっちでもいいって事だし
+ よく言われている事としては
+Nvidia製GPUをベースに制作し、最適化等の部分で負けてしまうゲームはあります。 ですが、逆にRadeonに最適化されているゲームも山程あります。
+片方だけ見るのはセコくないですか。
+CUDAコアが使えないとか言われますけど、CUDAを何に使ってるかわからない方には本当に関係ない話です。
+CUDAコアが必須って人はかなり少数派です。
+OpenCLとかありますしね。(この話は長くなるので終わり)
+ とは、言ったものの。ですが。
+実際Radeonはドライバが不安定だったり(近年だいぶマシになっています)します。
+確かに、安定を取るならNvidiaという選択肢は間違いないです。
+ですが、それでも、少しでもRadeonに興味を持っている人は、この記事を読んで少しだけ考えてくれたらなぁと思います。
+良い方面にも悪い方面にもです。長所短所両方あります。
+RTX2000シリーズからRadeonRX6000シリーズへの換装 パフォーマンスについて 充分考えていいレベルの性能アップです。
+私個人としては、昨今のCoDの高グラフィックかつ高fpsが欲しいというゲームをグラフィック設定盛り盛りで満足にプレイできています。
+レイトレを除くと、Radeon RX6000シリーズはRTX3000シリーズと比べても非常に良いGPUです。</description>
+    </item>
+    
     <item>
       <title>音環境を強化した話</title>
       <link>https://iniwach.netlify.app/hard/audiomix/</link>
