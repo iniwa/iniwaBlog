@@ -6,6 +6,8 @@ This is the grid based theme for Hugo.
 
 [Hugo :: A fast and modern static website engine](https://gohugo.io/)
 
+**You need the Hugo `extended` version.**
+
 ## PC View
 
 ![screenshot](https://raw.githubusercontent.com/dim0627/hugo_theme_robust/master/images/screenshot.png)
@@ -26,6 +28,7 @@ This is the grid based theme for Hugo.
 * OGP
 * Disqus
 * Syntax Highlight
+* Show `IsDraft`.
 
 ## Installation
 
@@ -53,6 +56,8 @@ dateformat = "Jan 2, 2006" # Optional
 googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
 fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
 logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+
+enableHighlight = true # highlight.js option
 
 [params.author]
 thumbnail = "images/author.jpg"
@@ -99,7 +104,6 @@ env HUGO_ENV="DEV" hugo server --watch --buildDrafts=true --buildFuture=true -t 
 This mode is
 
 * Not show Google Analytics tags.
-* Show `IsDraft`.
 * Show `WordCount`.
 
 And set `{{ if ne (getenv "HUGO_ENV") "DEV" }} Set elements here. {{ end }}` if you want to place only in a production environment.
