@@ -1,6 +1,6 @@
 baseURL = "https://iniwach.netlify.app/"
 languageCode = "ja"
-title = "いにわの庭"
+title = "いにわっち"
 theme = "hugo_theme_robust"
 
 googleAnalytics = "UA-153853958-2" # Optional

@@ -1,5 +1,5 @@
 ---
-title: いにわの庭
+title: いにわっち
 date: 2019-12-04T13:33:22.000Z
 draft: false
 thumbnail: images/post/自己紹介.jpg
